@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generator_policy>
+	  
+  <generator name="object" prefix="aiscr-api">
+		<pattern>id/{id}</pattern>
+	</generator>  
+  <generator name="item" prefix="aiscr-api">
+		<pattern>id/{id}#{attribute}</pattern>
+	</generator>
+  <generator name="datetime">
+		<pattern>{date}T{time}</pattern>
+	</generator>
+  <generator name="thumb" prefix="aiscr-digiarchiv">
+		<pattern>img?id={id}</pattern>
+	</generator>
+  <generator name="document" prefix="aiscr-digiarchiv">
+		<pattern>id/{id}</pattern>
+	</generator>
+  
+	<generator name="GermanDateTime">
+		<custom generatorClass="gr.forth.GermanDate">
+			<set-arg name="bound" type="constant"></set-arg>
+			<set-arg name="text"></set-arg>
+		</custom>
+	</generator>
+	<generator name="URIorUUID">
+		<custom generatorClass="gr.forth.URIorUUID">
+			<set-arg name="text"></set-arg>
+		</custom>
+	</generator>
+</generator_policy>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub>
+  <lst name="params">
+    <str name="identifierHead">https://api.aiscr.cz/id/</str>
+    <str name="metadataPrefix">oai_dc</str>
+    <str name="tokenDay">2019-05-28</str>
+    <str name="requestStr">http://localhost:8080/dapro/oai</str>
+    <str name="verb">ListRecords</str>
+    <str name="rows">5</str>
+    <str name="offset">0</str>
+    <str name="link" class="projekt">res:export_project12.xml?rows=5</str>
+    <str name="link" class="akce">res:export_event.xml</str>
+    <str name="datestamp">1970-01-01T00:00:00Z</str>
+  </lst>
+</stub>

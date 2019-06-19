@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<amcr>
+ <dokument>
+  <ident_cely>C-DL-200400001</ident_cely>
+  <let>C-LET-00253</let>
+  <stav>3</stav>
+  <typ_dokumentu>letfoto vegetačních příznaků</typ_dokumentu>
+  <material_originalu>digitální soubor</material_originalu>
+  <rada>DL</rada>
+  <autor>Gojda, Martin</autor>
+  <rok_vzniku>2004</rok_vzniku>
+  <organizace>Archeologický ústav Praha</organizace>
+ </dokument>
+ <dokument>
+  <ident_cely>C-DL-200500001</ident_cely>
+  <let>C-LET-00261</let>
+  <stav>1</stav>
+  <typ_dokumentu>letfoto vegetačních příznaků</typ_dokumentu>
+  <material_originalu>digitální soubor</material_originalu>
+  <rada>DL</rada>
+  <autor>Gojda, Martin</autor>
+  <rok_vzniku>2005</rok_vzniku>
+  <organizace>Archeologický ústav Praha</organizace>
+ </dokument>
+ <dokument>
+  <ident_cely>C-DL-200600001</ident_cely>
+  <let>C-LET-00268</let>
+  <stav>3</stav>
+  <typ_dokumentu>letfoto půdních příznaků</typ_dokumentu>
+  <material_originalu>digitální soubor</material_originalu>
+  <rada>DL</rada>
+  <autor>Gojda, Martin</autor>
+  <rok_vzniku>2006</rok_vzniku>
+  <organizace>Archeologický ústav Praha</organizace>
+ </dokument>
+ <dokument>
+  <ident_cely>C-DL-200700001</ident_cely>
+  <let>C-LET-00300</let>
+  <stav>3</stav>
+  <stav>4</stav>
+  <typ_dokumentu>letfoto vegetačních příznaků</typ_dokumentu>
+  <material_originalu>digitální soubor</material_originalu>
+  <rada>DL</rada>
+  <autor>Gojda, Martin</autor>
+  <rok_vzniku>2007</rok_vzniku>
+  <organizace>Archeologický ústav Praha</organizace>
+ </dokument>
+</amcr>

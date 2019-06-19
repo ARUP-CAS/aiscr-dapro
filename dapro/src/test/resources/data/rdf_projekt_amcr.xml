@@ -1,0 +1,536 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:aiscr-api="https://api.aiscr.cz/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <crm:E7_Activity rdf:about="https://api.aiscr.cz/id/M-201400271">
+    <crm:P3_has_note rdf:resource="http://www.archeologickamapa.cz/"/>
+    <crm:P116i_is_started_by>
+      <crm:E5_Event rdf:about="https://api.aiscr.cz/id/M-201400271#var-start">
+        <crm:P2_has_type xml:lang="cs">Začátek</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Start</crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E49_Time_Appellation rdf:about="https://api.aiscr.cz/id/M-201400271#planovane_zahajeni">
+            <rdfs:label>-</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Plánované zahájení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Planned Date of Start</crm:P2_has_type>
+          </crm:E49_Time_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_zahajeni">
+            <rdfs:label>2014-04-01</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Datum zahájení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Date of Start</crm:P2_has_type>
+          </crm:E50_Date>
+        </crm:P1_is_identified_by>
+      </crm:E5_Event>
+    </crm:P116i_is_started_by>
+    <crm:P17_was_motivated_by>
+      <crm:E7_Activity rdf:about="https://api.aiscr.cz/id/M-201400271#podnet">
+        <rdfs:label>Novostavba kavárny Cafe Benediktin.</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Podnět</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Circumstances</crm:P2_has_type>
+      </crm:E7_Activity>
+    </crm:P17_was_motivated_by>
+    <crm:P2_has_type xml:lang="cs">Projekt</crm:P2_has_type>
+    <crm:P2_has_type xml:lang="en">Project</crm:P2_has_type>
+    <crm:P14_carried_out_by>
+      <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400271#vedouci_projektu">
+        <rdfs:label>Parma, David</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Vedoucí projektu</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Project Leader</crm:P2_has_type>
+      </crm:E21_Person>
+    </crm:P14_carried_out_by>
+    <crm:P1_is_identified_by>
+      <crm:E42_Identifier rdf:about="https://api.aiscr.cz/id/M-201400271#uzivatelske_oznaceni">
+        <rdfs:label>92/14</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Uživatelské označení</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">External Identifier</crm:P2_has_type>
+      </crm:E42_Identifier>
+    </crm:P1_is_identified_by>
+    <crm:P21_had_general_purpose>
+      <crm:E55_Type rdf:about="https://api.aiscr.cz/id/M-201400271#typ_projektu">
+        <rdfs:label xml:lang="cs">záchranný</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Typ</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Type</crm:P2_has_type>
+      </crm:E55_Type>
+    </crm:P21_had_general_purpose>
+    <crm:P129i_is_subject_of>
+      <crm:E73_Information_Object rdf:about="https://api.aiscr.cz/id/M-201400271#var-AMCR_record">
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400271#var-finalization">
+            <crm:P2_has_type xml:lang="cs">Uzavření</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Finalization</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_navrhu_archivace">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum uzavření</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Finalization</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400271#odpovedny_pracovnik_navrhu_archivace">
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Uzavřel</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Finalized by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400271#var-completed">
+            <crm:P2_has_type xml:lang="cs">Zápis ukončení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Completion Recording</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_zapisu_ukonceni">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum zápisu ukončení</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Completion Recording</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400271#odpovedny_pracovnik_ukonceni">
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Ukončil</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Completion Recorded by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P2_has_type xml:lang="cs">Záznam AMČR</crm:P2_has_type>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://api.aiscr.cz/id/M-201400271#stav">
+            <rdfs:label xml:lang="cs">6</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Procesní stav záznamu</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Record Processing State</crm:P2_has_type>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400271#var-started">
+            <crm:P2_has_type xml:lang="cs">Zápis zahájení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Start Recording</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_zapisu_zahajeni">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum zápisu zahájení</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Start Recording</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400271#odpovedny_pracovnik_zahajeni">
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Zahájil</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Start Recorded by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P2_has_type xml:lang="en">AMCR Record</crm:P2_has_type>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400271#var-registration">
+            <crm:P2_has_type xml:lang="cs">Přihlášení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Registration</crm:P2_has_type>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400271#odpovedny_pracovnik_prihlaseni">
+                <crm:P107i_is_current_or_former_member_of>
+                  <crm:E40_Legal_Body rdf:about="https://api.aiscr.cz/id/M-201400271#organizace_prihlaseni">
+                    <rdfs:label xml:lang="cs">ÚAPP Brno</rdfs:label>
+                    <crm:P2_has_type xml:lang="cs">Organizace přihlášení</crm:P2_has_type>
+                    <crm:P2_has_type xml:lang="en">Organisation Registered</crm:P2_has_type>
+                  </crm:E40_Legal_Body>
+                </crm:P107i_is_current_or_former_member_of>
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Přihlásil</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Registered by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_prihlaseni">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum přihlášení</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Registration</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400271#var-archiving">
+            <crm:P2_has_type xml:lang="cs">Archivace</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Archiving</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_archivace">
+                <rdfs:label>2016-10-21</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum archivace</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Archiving</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400271#odpovedny_pracovnik_archivace">
+                <rdfs:label>Suchánková, Kristýna</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Archivoval</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Archived by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P94i_was_created_by>
+          <crm:E65_Creation rdf:about="https://api.aiscr.cz/id/M-201400271#var-recorded">
+            <crm:P2_has_type xml:lang="cs">Zápis</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Recorded</crm:P2_has_type>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400271#odpovedny_pracovnik_zapisu">
+                <crm:P107i_is_current_or_former_member_of>
+                  <crm:E40_Legal_Body rdf:about="https://api.aiscr.cz/id/M-201400271#organizace_zapisu">
+                    <rdfs:label xml:lang="cs">ÚAPP Brno</rdfs:label>
+                    <crm:P2_has_type xml:lang="cs">Organizace zápisu</crm:P2_has_type>
+                    <crm:P2_has_type xml:lang="en">Organisation Recorded</crm:P2_has_type>
+                  </crm:E40_Legal_Body>
+                </crm:P107i_is_current_or_former_member_of>
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Zapsal</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Recorded by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_zapisu">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum zápisu</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Recording</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+          </crm:E65_Creation>
+        </crm:P94i_was_created_by>
+      </crm:E73_Information_Object>
+    </crm:P129i_is_subject_of>
+    <crm:P15_was_influenced_by>
+      <crm:E72_Legal_Object rdf:about="https://api.aiscr.cz/id/M-201400271#var-protection">
+        <crm:P2_has_type xml:lang="cs">Památková ochrana</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Monument Protection</crm:P2_has_type>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://api.aiscr.cz/id/M-201400271#kulturni_pamatka">
+            <rdfs:label xml:lang="cs">bez ochrany</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Forma ochrany</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Form of Protection</crm:P2_has_type>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+      </crm:E72_Legal_Object>
+    </crm:P15_was_influenced_by>
+    <crm:P115i_is_finished_by>
+      <crm:E5_Event rdf:about="https://api.aiscr.cz/id/M-201400271#var-completion">
+        <crm:P2_has_type xml:lang="cs">Ukončení</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Completion</crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400271#datum_ukonceni">
+            <rdfs:label>2014-04-30</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Datum ukončení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Date of Completion</crm:P2_has_type>
+          </crm:E50_Date>
+        </crm:P1_is_identified_by>
+      </crm:E5_Event>
+    </crm:P115i_is_finished_by>
+    <crm:P48_has_preferred_identifier>
+      <crm:E42_Identifier rdf:about="https://api.aiscr.cz/id/M-201400271#ident_cely">
+        <rdfs:label>M-201400271</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Identifikátor AMČR</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">AMCR Identifier</crm:P2_has_type>
+      </crm:E42_Identifier>
+    </crm:P48_has_preferred_identifier>
+    <crm:P7_took_place_at>
+      <crm:E53_Place rdf:about="https://api.aiscr.cz/id/M-201400271#var-location">
+        <crm:P2_has_type xml:lang="cs">Prostorové vymezení</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Spatial Definition</crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E48_Place_Name rdf:about="https://api.aiscr.cz/id/M-201400271#okres">
+            <rdfs:label xml:lang="cs">Brno-venkov</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Okres</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">District</crm:P2_has_type>
+          </crm:E48_Place_Name>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E48_Place_Name rdf:about="https://api.aiscr.cz/id/M-201400271#katastr">
+            <rdfs:label xml:lang="cs">RAJHRAD</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Katastr</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Cadastre</crm:P2_has_type>
+          </crm:E48_Place_Name>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E44_Place_Appellation rdf:about="https://api.aiscr.cz/id/M-201400271#lokalita">
+            <rdfs:label>Masarykova.</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Lokalizace</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Place</crm:P2_has_type>
+          </crm:E44_Place_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E42_Identifier rdf:about="https://api.aiscr.cz/id/M-201400271#parcelni_cislo">
+            <rdfs:label>1064</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Parcelní číslo</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Parcel Number</crm:P2_has_type>
+          </crm:E42_Identifier>
+        </crm:P1_is_identified_by>
+      </crm:E53_Place>
+    </crm:P7_took_place_at>
+  </crm:E7_Activity>
+  <crm:E7_Activity rdf:about="https://api.aiscr.cz/id/M-201400270">
+    <crm:P129i_is_subject_of>
+      <crm:E73_Information_Object rdf:about="https://api.aiscr.cz/id/M-201400270#var-AMCR_record">
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400270#var-completed">
+            <crm:P2_has_type xml:lang="cs">Zápis ukončení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Completion Recording</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_zapisu_ukonceni">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum zápisu ukončení</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Completion Recording</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400270#odpovedny_pracovnik_ukonceni">
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Ukončil</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Completion Recorded by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400270#var-archiving">
+            <crm:P2_has_type xml:lang="cs">Archivace</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Archiving</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_archivace">
+                <rdfs:label>2016-10-21</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum archivace</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Archiving</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400270#odpovedny_pracovnik_archivace">
+                <rdfs:label>Suchánková, Kristýna</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Archivoval</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Archived by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400270#var-finalization">
+            <crm:P2_has_type xml:lang="cs">Uzavření</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Finalization</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_navrhu_archivace">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum uzavření</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Finalization</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400270#odpovedny_pracovnik_navrhu_archivace">
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Uzavřel</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Finalized by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400270#var-started">
+            <crm:P2_has_type xml:lang="cs">Zápis zahájení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Start Recording</crm:P2_has_type>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_zapisu_zahajeni">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum zápisu zahájení</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Start Recording</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400270#odpovedny_pracovnik_zahajeni">
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Zahájil</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Start Recorded by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://api.aiscr.cz/id/M-201400270#stav">
+            <rdfs:label xml:lang="cs">6</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Procesní stav záznamu</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Record Processing State</crm:P2_has_type>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">AMCR Record</crm:P2_has_type>
+        <crm:P140i_was_attributed_by>
+          <crm:E13_Attribute_Assignment rdf:about="https://api.aiscr.cz/id/M-201400270#var-registration">
+            <crm:P2_has_type xml:lang="cs">Přihlášení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Registration</crm:P2_has_type>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400270#odpovedny_pracovnik_prihlaseni">
+                <crm:P107i_is_current_or_former_member_of>
+                  <crm:E40_Legal_Body rdf:about="https://api.aiscr.cz/id/M-201400270#organizace_prihlaseni">
+                    <rdfs:label xml:lang="cs">ÚAPP Brno</rdfs:label>
+                    <crm:P2_has_type xml:lang="cs">Organizace přihlášení</crm:P2_has_type>
+                    <crm:P2_has_type xml:lang="en">Organisation Registered</crm:P2_has_type>
+                  </crm:E40_Legal_Body>
+                </crm:P107i_is_current_or_former_member_of>
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Přihlásil</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Registered by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_prihlaseni">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum přihlášení</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Registration</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+          </crm:E13_Attribute_Assignment>
+        </crm:P140i_was_attributed_by>
+        <crm:P2_has_type xml:lang="cs">Záznam AMČR</crm:P2_has_type>
+        <crm:P94i_was_created_by>
+          <crm:E65_Creation rdf:about="https://api.aiscr.cz/id/M-201400270#var-recorded">
+            <crm:P2_has_type xml:lang="cs">Zápis</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Recorded</crm:P2_has_type>
+            <crm:P14_carried_out_by>
+              <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400270#odpovedny_pracovnik_zapisu">
+                <crm:P107i_is_current_or_former_member_of>
+                  <crm:E40_Legal_Body rdf:about="https://api.aiscr.cz/id/M-201400270#organizace_zapisu">
+                    <rdfs:label xml:lang="cs">ÚAPP Brno</rdfs:label>
+                    <crm:P2_has_type xml:lang="cs">Organizace zápisu</crm:P2_has_type>
+                    <crm:P2_has_type xml:lang="en">Organisation Recorded</crm:P2_has_type>
+                  </crm:E40_Legal_Body>
+                </crm:P107i_is_current_or_former_member_of>
+                <rdfs:label>Parma, David</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Zapsal</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Recorded by</crm:P2_has_type>
+              </crm:E21_Person>
+            </crm:P14_carried_out_by>
+            <crm:P1_is_identified_by>
+              <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_zapisu">
+                <rdfs:label>2014-05-26</rdfs:label>
+                <crm:P2_has_type xml:lang="cs">Datum zápisu</crm:P2_has_type>
+                <crm:P2_has_type xml:lang="en">Date of Recording</crm:P2_has_type>
+              </crm:E50_Date>
+            </crm:P1_is_identified_by>
+          </crm:E65_Creation>
+        </crm:P94i_was_created_by>
+      </crm:E73_Information_Object>
+    </crm:P129i_is_subject_of>
+    <crm:P115i_is_finished_by>
+      <crm:E5_Event rdf:about="https://api.aiscr.cz/id/M-201400270#var-completion">
+        <crm:P2_has_type xml:lang="cs">Ukončení</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Completion</crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_ukonceni">
+            <rdfs:label>2014-04-30</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Datum ukončení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Date of Completion</crm:P2_has_type>
+          </crm:E50_Date>
+        </crm:P1_is_identified_by>
+      </crm:E5_Event>
+    </crm:P115i_is_finished_by>
+    <crm:P2_has_type xml:lang="cs">Projekt</crm:P2_has_type>
+    <crm:P14_carried_out_by>
+      <crm:E21_Person rdf:about="https://api.aiscr.cz/id/M-201400270#vedouci_projektu">
+        <rdfs:label>Parma, David</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Vedoucí projektu</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Project Leader</crm:P2_has_type>
+      </crm:E21_Person>
+    </crm:P14_carried_out_by>
+    <crm:P15_was_influenced_by>
+      <crm:E72_Legal_Object rdf:about="https://api.aiscr.cz/id/M-201400270#var-protection">
+        <crm:P2_has_type xml:lang="cs">Památková ochrana</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Monument Protection</crm:P2_has_type>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://api.aiscr.cz/id/M-201400270#kulturni_pamatka">
+            <rdfs:label xml:lang="cs">bez ochrany</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Forma ochrany</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Form of Protection</crm:P2_has_type>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+      </crm:E72_Legal_Object>
+    </crm:P15_was_influenced_by>
+    <crm:P17_was_motivated_by>
+      <crm:E7_Activity rdf:about="https://api.aiscr.cz/id/M-201400270#podnet">
+        <rdfs:label>Rajhradice rekonstrukce kanalizace.</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Podnět</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Circumstances</crm:P2_has_type>
+      </crm:E7_Activity>
+    </crm:P17_was_motivated_by>
+    <crm:P116i_is_started_by>
+      <crm:E5_Event rdf:about="https://api.aiscr.cz/id/M-201400270#var-start">
+        <crm:P2_has_type xml:lang="cs">Začátek</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Start</crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E49_Time_Appellation rdf:about="https://api.aiscr.cz/id/M-201400270#planovane_zahajeni">
+            <rdfs:label>-</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Plánované zahájení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Planned Date of Start</crm:P2_has_type>
+          </crm:E49_Time_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E50_Date rdf:about="https://api.aiscr.cz/id/M-201400270#datum_zahajeni">
+            <rdfs:label>2014-04-07</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Datum zahájení</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Date of Start</crm:P2_has_type>
+          </crm:E50_Date>
+        </crm:P1_is_identified_by>
+      </crm:E5_Event>
+    </crm:P116i_is_started_by>
+    <crm:P21_had_general_purpose>
+      <crm:E55_Type rdf:about="https://api.aiscr.cz/id/M-201400270#typ_projektu">
+        <rdfs:label xml:lang="cs">záchranný</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Typ</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Type</crm:P2_has_type>
+      </crm:E55_Type>
+    </crm:P21_had_general_purpose>
+    <crm:P3_has_note rdf:resource="http://www.archeologickamapa.cz/"/>
+    <crm:P2_has_type xml:lang="en">Project</crm:P2_has_type>
+    <crm:P1_is_identified_by>
+      <crm:E42_Identifier rdf:about="https://api.aiscr.cz/id/M-201400270#uzivatelske_oznaceni">
+        <rdfs:label>91/14</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Uživatelské označení</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">External Identifier</crm:P2_has_type>
+      </crm:E42_Identifier>
+    </crm:P1_is_identified_by>
+    <crm:P48_has_preferred_identifier>
+      <crm:E42_Identifier rdf:about="https://api.aiscr.cz/id/M-201400270#ident_cely">
+        <rdfs:label>M-201400270</rdfs:label>
+        <crm:P2_has_type xml:lang="cs">Identifikátor AMČR</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">AMCR Identifier</crm:P2_has_type>
+      </crm:E42_Identifier>
+    </crm:P48_has_preferred_identifier>
+    <crm:P7_took_place_at>
+      <crm:E53_Place rdf:about="https://api.aiscr.cz/id/M-201400270#var-location">
+        <crm:P2_has_type xml:lang="cs">Prostorové vymezení</crm:P2_has_type>
+        <crm:P2_has_type xml:lang="en">Spatial Definition</crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E48_Place_Name rdf:about="https://api.aiscr.cz/id/M-201400270#okres">
+            <rdfs:label xml:lang="cs">Brno-venkov</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Okres</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">District</crm:P2_has_type>
+          </crm:E48_Place_Name>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E48_Place_Name rdf:about="https://api.aiscr.cz/id/M-201400270#katastr">
+            <rdfs:label xml:lang="cs">RAJHRADICE</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Katastr</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Cadastre</crm:P2_has_type>
+          </crm:E48_Place_Name>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E44_Place_Appellation rdf:about="https://api.aiscr.cz/id/M-201400270#lokalita">
+            <rdfs:label>Na předním.</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Lokalizace</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Place</crm:P2_has_type>
+          </crm:E44_Place_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P1_is_identified_by>
+          <crm:E42_Identifier rdf:about="https://api.aiscr.cz/id/M-201400270#parcelni_cislo">
+            <rdfs:label>953/11</rdfs:label>
+            <crm:P2_has_type xml:lang="cs">Parcelní číslo</crm:P2_has_type>
+            <crm:P2_has_type xml:lang="en">Parcel Number</crm:P2_has_type>
+          </crm:E42_Identifier>
+        </crm:P1_is_identified_by>
+      </crm:E53_Place>
+    </crm:P7_took_place_at>
+  </crm:E7_Activity>
+</rdf:RDF>

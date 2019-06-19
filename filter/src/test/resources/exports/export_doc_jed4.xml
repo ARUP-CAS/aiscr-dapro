@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<amcr>
+ <dok_jednotka>
+  <ident_cely>C-L1000001-D01</ident_cely>
+  <parent_lokalita>C-L1000001</parent_lokalita>
+  <lokalita_stav>3</lokalita_stav>
+  <pristupnost>B</pristupnost>
+  <datum>2017-11-27</datum>
+  <pian>P-0144-100000</pian>
+  <typ>Lokalita</typ>
+  <negativni_jednotka>0</negativni_jednotka>
+ </dok_jednotka>
+ <dok_jednotka>
+  <ident_cely>C-9103121A-D01</ident_cely>
+  <parent_akce>C-9103121A</parent_akce>
+  <akce_stav>3</akce_stav>
+  <pristupnost>B</pristupnost>
+  <datum>2017-05-24</datum>
+  <pian>P-2214-010010</pian>
+  <typ>Celek akce</typ>
+  <negativni_jednotka>0</negativni_jednotka>
+  <komponenta>
+   <ident_cely>C-9103121A-K01</ident_cely>
+   <parent>C-9103121A-D01</parent>
+   <obdobi>pstred</obdobi>
+   <areal>tvrz/hrádek</areal>
+   <aktivita_sidlistni>1</aktivita_sidlistni>
+   <aktivita_pohrebni>0</aktivita_pohrebni>
+   <aktivita_vyrobni>0</aktivita_vyrobni>
+   <aktivita_tezebni>0</aktivita_tezebni>
+   <aktivita_kultovni>0</aktivita_kultovni>
+   <aktivita_komunikace>0</aktivita_komunikace>
+   <aktivita_deponovani>0</aktivita_deponovani>
+   <aktivita_intruze>0</aktivita_intruze>
+   <aktivita_boj>0</aktivita_boj>
+   <aktivita_jina>0</aktivita_jina>
+   <nalez>
+    <pom_id>299674</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>P</typ_nalezu>
+    <kategorie>běžný nález</kategorie>
+    <druh_nalezu>zlomek keramiky nesp.</druh_nalezu>
+    <specifikace>keramika nesp.</specifikace>
+    <pocet>xxx</pocet>
+   </nalez>
+   <nalez>
+    <pom_id>303296</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>P</typ_nalezu>
+    <kategorie>stavební/spojovací prvek</kategorie>
+    <druh_nalezu>cihla</druh_nalezu>
+    <specifikace>keramika nesp.</specifikace>
+   </nalez>
+   <nalez>
+    <pom_id>304276</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>P</typ_nalezu>
+    <kategorie>stavební/spojovací prvek</kategorie>
+    <druh_nalezu>kachel</druh_nalezu>
+    <specifikace>keramika nesp.</specifikace>
+   </nalez>
+   <nalez>
+    <pom_id>306773</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>P</typ_nalezu>
+    <kategorie>běžný nález</kategorie>
+    <druh_nalezu>zlomek kosti nesp.</druh_nalezu>
+    <specifikace>kost zvířecí</specifikace>
+   </nalez>
+   <nalez>
+    <pom_id>308043</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>P</typ_nalezu>
+    <kategorie>stavební/spojovací prvek</kategorie>
+    <druh_nalezu>pojivo</druh_nalezu>
+    <specifikace>malta</specifikace>
+   </nalez>
+   <nalez>
+    <pom_id>312298</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>P</typ_nalezu>
+    <kategorie>běžný nález</kategorie>
+    <druh_nalezu>amorfní zlomek/předmět nesp.</druh_nalezu>
+    <specifikace>železo</specifikace>
+   </nalez>
+   <nalez>
+    <pom_id>317417</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>O</typ_nalezu>
+    <kategorie>konstrukční prvek</kategorie>
+    <druh_nalezu>konstrukční prvek nesp.</druh_nalezu>
+    <specifikace>konstrukce zděná</specifikace>
+    <pocet>1</pocet>
+   </nalez>
+   <nalez>
+    <pom_id>319344</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>O</typ_nalezu>
+    <kategorie>inženýrská síť</kategorie>
+    <druh_nalezu>kanalizace</druh_nalezu>
+    <pocet>X</pocet>
+   </nalez>
+   <nalez>
+    <pom_id>329165</pom_id>
+    <komponenta>C-9103121A-K01</komponenta>
+    <typ_nalezu>O</typ_nalezu>
+    <kategorie>vrstva/souvrství</kategorie>
+    <druh_nalezu>vrstva/souvrství nesp.</druh_nalezu>
+    <pocet>XX</pocet>
+   </nalez>
+  </komponenta>
+  <komponenta>
+   <ident_cely>C-9103121A-K02</ident_cely>
+   <parent>C-9103121A-D01</parent>
+   <obdobi>no.1</obdobi>
+   <areal>tvrz/hrádek</areal>
+   <aktivita_sidlistni>1</aktivita_sidlistni>
+   <aktivita_pohrebni>0</aktivita_pohrebni>
+   <aktivita_vyrobni>0</aktivita_vyrobni>
+   <aktivita_tezebni>0</aktivita_tezebni>
+   <aktivita_kultovni>0</aktivita_kultovni>
+   <aktivita_komunikace>0</aktivita_komunikace>
+   <aktivita_deponovani>0</aktivita_deponovani>
+   <aktivita_intruze>0</aktivita_intruze>
+   <aktivita_boj>0</aktivita_boj>
+   <aktivita_jina>0</aktivita_jina>
+  </komponenta>
+  <komponenta>
+   <ident_cely>C-9103121A-K03</ident_cely>
+   <parent>C-9103121A-D01</parent>
+   <obdobi>no.2</obdobi>
+   <areal>tvrz/hrádek</areal>
+   <aktivita_sidlistni>1</aktivita_sidlistni>
+   <aktivita_pohrebni>0</aktivita_pohrebni>
+   <aktivita_vyrobni>0</aktivita_vyrobni>
+   <aktivita_tezebni>0</aktivita_tezebni>
+   <aktivita_kultovni>0</aktivita_kultovni>
+   <aktivita_komunikace>0</aktivita_komunikace>
+   <aktivita_deponovani>0</aktivita_deponovani>
+   <aktivita_intruze>0</aktivita_intruze>
+   <aktivita_boj>0</aktivita_boj>
+   <aktivita_jina>0</aktivita_jina>
+  </komponenta>
+ </dok_jednotka>
+ <dok_jednotka>
+  <ident_cely>C-L9000001-D01</ident_cely>
+  <parent_lokalita>C-L9000001</parent_lokalita>
+  <lokalita_stav>3</lokalita_stav>
+  <pristupnost>D</pristupnost>
+  <datum>2017-10-15</datum>
+  <pian>P-0234-010010</pian>
+  <typ>Lokalita</typ>
+  <negativni_jednotka>0</negativni_jednotka>
+ </dok_jednotka>
+ <dok_jednotka>
+  <ident_cely>C-L9000002-D01</ident_cely>
+  <parent_lokalita>C-L9000002</parent_lokalita>
+  <lokalita_stav>4</lokalita_stav>
+  <pristupnost>1</pristupnost>
+  <datum>2018-06-13</datum>
+  <pian>P-1221-010081</pian>
+  <typ>Lokalita</typ>
+  <negativni_jednotka>0</negativni_jednotka>
+ </dok_jednotka>
+</amcr>

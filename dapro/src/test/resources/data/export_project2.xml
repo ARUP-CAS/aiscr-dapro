@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<amcr>
+<projekt>
+  <ident_cely>C-201800019</ident_cely>
+  <stav>6</stav>
+  <typ_projektu>záchranný</typ_projektu>
+  <datetime_born>2004-10-19 10:23:54</datetime_born>
+  <okres>Karlovy Vary</okres>
+  <katastr>ABERTAMY</katastr>
+  <podnet>a</podnet>
+  <lokalita>b</lokalita>
+  <parcelni_cislo>c</parcelni_cislo>
+  <planovane_zahajeni>d</planovane_zahajeni>
+  <objednatel>údaj odstraněn</objednatel>
+  <odpovedna_osoba>údaj odstraněn</odpovedna_osoba>
+  <adresa>údaj odstraněn</adresa>
+  <telefon>údaj odstraněn</telefon>
+  <email>údaj odstraněn</email>
+  <vedouci_projektu>Bárta, Václav</vedouci_projektu>
+  <organizace_zapisu>SmartGIS</organizace_zapisu>
+  <organizace_prihlaseni>SmartGIS</organizace_prihlaseni>
+  <kulturni_pamatka>bez ochrany</kulturni_pamatka>
+  <datum_zahajeni>2018-12-17</datum_zahajeni>
+  <datum_ukonceni>2018-12-17</datum_ukonceni>
+  <datum_zapisu>2018-12-17</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>GIS, Smart</odpovedny_pracovnik_zapisu>
+  <datum_prihlaseni>2018-12-17</datum_prihlaseni>
+  <odpovedny_pracovnik_prihlaseni>GIS, Smart</odpovedny_pracovnik_prihlaseni>
+  <datum_zapisu_zahajeni>2018-12-17</datum_zapisu_zahajeni>
+  <odpovedny_pracovnik_zahajeni>GIS, Smart</odpovedny_pracovnik_zahajeni>
+  <datum_zapisu_ukonceni>2018-12-17</datum_zapisu_ukonceni>
+  <odpovedny_pracovnik_ukonceni>GIS, Smart</odpovedny_pracovnik_ukonceni>
+  <datum_navrhu_archivace>2018-12-17</datum_navrhu_archivace>
+  <odpovedny_pracovnik_navrhu_archivace>GIS, Smart</odpovedny_pracovnik_navrhu_archivace>
+  <datum_archivace>2018-12-17</datum_archivace>
+  <odpovedny_pracovnik_archivace>GIS, Smart</odpovedny_pracovnik_archivace>
+  <termin_odevzdani_nz>2021-12-17</termin_odevzdani_nz>
+  <geometry_e>12.8140500459409</geometry_e>
+  <geometry_n>50.3741216027674</geometry_n>
+ </projekt>
+ <projekt>
+  <ident_cely>M-201900001</ident_cely>
+  <stav>6</stav>
+  <typ_projektu>záchranný</typ_projektu>
+  <datetime_born>2019-01-04 08:50:00</datetime_born>
+  <okres>Blansko</okres>
+  <katastr>ADAMOV</katastr>
+  <podnet>a</podnet>
+  <lokalita>b</lokalita>
+  <parcelni_cislo>c</parcelni_cislo>
+  <planovane_zahajeni>d</planovane_zahajeni>
+  <objednatel>údaj odstraněn</objednatel>
+  <odpovedna_osoba>údaj odstraněn</odpovedna_osoba>
+  <adresa>údaj odstraněn</adresa>
+  <telefon>údaj odstraněn</telefon>
+  <email>údaj odstraněn</email>
+  <vedouci_projektu>Bárta, Václav</vedouci_projektu>
+  <organizace_zapisu>SmartGIS</organizace_zapisu>
+  <organizace_prihlaseni>SmartGIS</organizace_prihlaseni>
+  <kulturni_pamatka>ochranné pásmo</kulturni_pamatka>
+  <nkp_cislo>a</nkp_cislo>
+  <nkp_popis>b</nkp_popis>
+  <datum_zahajeni>2019-01-04</datum_zahajeni>
+  <datum_ukonceni>2019-01-04</datum_ukonceni>
+  <datum_zapisu>2019-01-04</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>GIS, Smart</odpovedny_pracovnik_zapisu>
+  <datum_prihlaseni>2019-01-04</datum_prihlaseni>
+  <odpovedny_pracovnik_prihlaseni>GIS, Smart</odpovedny_pracovnik_prihlaseni>
+  <datum_zapisu_zahajeni>2019-01-04</datum_zapisu_zahajeni>
+  <odpovedny_pracovnik_zahajeni>GIS, Smart</odpovedny_pracovnik_zahajeni>
+  <datum_zapisu_ukonceni>2019-01-04</datum_zapisu_ukonceni>
+  <odpovedny_pracovnik_ukonceni>GIS, Smart</odpovedny_pracovnik_ukonceni>
+  <datum_navrhu_archivace>2019-01-04</datum_navrhu_archivace>
+  <odpovedny_pracovnik_navrhu_archivace>GIS, Smart</odpovedny_pracovnik_navrhu_archivace>
+  <datum_archivace>2019-01-04</datum_archivace>
+  <odpovedny_pracovnik_archivace>GIS, Smart</odpovedny_pracovnik_archivace>
+  <termin_odevzdani_nz>2022-01-04</termin_odevzdani_nz>
+  <geometry_e>16.653447938891</geometry_e>
+  <geometry_n>49.3004546009211</geometry_n>
+ </projekt>
+</amcr>

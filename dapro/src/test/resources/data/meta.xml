@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub>
+  <lst name="params">
+    <str name="q">*:*</str>
+    <str name="requestStr">http://example.com/dapro/oai</str>
+    <str name="verb">ListMetadataFormats</str>
+    <str name="rows">0</str>
+    <str name="link" class="project">res:rdf_projekt_amcr.xml</str>
+  </lst>
+</stub>

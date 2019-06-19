@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<schema targetNamespace="https://api.aiscr.cz/schema/oai_rdf"
+           xmlns="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+<annotation>
+  <documentation>
+      Schema for inclusion of AMCR data in CIDOC CRM (i.e. RDF/XML) model
+      into OAI-PMH XML.
+    </documentation>
+    <appinfo source="http://www.cidoc-crm.org/sites/default/files/cidoc_crm_v5.0.4_official_release.rdfs"/>
+  </annotation>
+
+  <element name="crm2rdf">
+    <complexType>
+      <sequence>
+        <any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+      <anyAttribute processContents="skip"/>
+    </complexType>
+  </element>
+
+</schema>

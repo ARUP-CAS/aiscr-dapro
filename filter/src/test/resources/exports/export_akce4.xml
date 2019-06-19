@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<amcr>
+ <akce>
+  <vazba_projekt_akce>
+   <id_projekt>C-201230311</id_projekt>
+  </vazba_projekt_akce>
+  <ident_cely>C-201230311A</ident_cely>
+  <typ>R</typ>
+  <stav>6</stav>
+  <je_nz>1</je_nz>
+  <okres>Teplice</okres>
+  <katastr>BÍLINA</katastr>
+  <dalsi_katastry>BÍLINA-ÚJEZD</dalsi_katastry>
+  <vedouci_akce>Čech, Petr</vedouci_akce>
+  <organizace>Archeologický ústav Praha</organizace>
+  <specifikace_data>přesně</specifikace_data>
+  <datum_zahajeni_v>2017-08-01</datum_zahajeni_v>
+  <datum_ukonceni>2018-02-08</datum_ukonceni>
+  <datum_ukonceni_v>2018-02-08</datum_ukonceni_v>
+  <hlavni_typ>povrchový nález</hlavni_typ>
+  <lokalizace>Centrum města a části předměstí. Parc. č. neuvedeno.</lokalizace>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2017-08-01</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>novak@arup.cas.cz</odpovedny_pracovnik_zapisu>
+  <datum_podani_nz>2018-02-08</datum_podani_nz>
+  <odpovedny_pracovnik_podani_nz>novak@arup.cas.cz</odpovedny_pracovnik_podani_nz>
+ </akce>
+ <akce>
+  <vazba_projekt_akce>
+   <id_projekt>C-201338222</id_projekt>
+  </vazba_projekt_akce>
+  <ident_cely>C-201338222A</ident_cely>
+  <typ>R</typ>
+  <stav>8</stav>
+  <je_nz>1</je_nz>
+  <okres>Teplice</okres>
+  <katastr>BÍLINA</katastr>
+  <vedouci_akce>Čech, Petr</vedouci_akce>
+  <organizace>Archeologický ústav Praha</organizace>
+  <specifikace_data>přesně</specifikace_data>
+  <datum_zahajeni_v>2017-07-22</datum_zahajeni_v>
+  <datum_ukonceni>2018-02-07</datum_ukonceni>
+  <datum_ukonceni_v>2018-02-07</datum_ukonceni_v>
+  <hlavni_typ>sonda</hlavni_typ>
+  <lokalizace>Teplické předměstí. Parc. č. 1683/15, 1683/31, 1683/54, 1683/58, 1683/91.</lokalizace>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2017-07-22</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>novak@arup.cas.cz</odpovedny_pracovnik_zapisu>
+  <datum_podani_nz>2018-02-07</datum_podani_nz>
+  <odpovedny_pracovnik_podani_nz>novak@arup.cas.cz</odpovedny_pracovnik_podani_nz>
+  <datum_archivace>2018-02-07</datum_archivace>
+  <odpovedny_pracovnik_archivace>novak@arup.cas.cz</odpovedny_pracovnik_archivace>
+ </akce>
+ <akce>
+  <vazba_projekt_akce>
+   <id_projekt>M-201700247</id_projekt>
+  </vazba_projekt_akce>
+  <ident_cely>M-201700247A</ident_cely>
+  <typ>R</typ>
+  <stav>1</stav>
+  <je_nz>0</je_nz>
+  <okres>Olomouc</okres>
+  <katastr>OLOMOUC-MĚSTO</katastr>
+  <vedouci_akce>Smetana, Jiří</vedouci_akce>
+  <organizace>SmartGIS</organizace>
+  <specifikace_data>přesně</specifikace_data>
+  <datum_zahajeni_v>2018-01-01</datum_zahajeni_v>
+  <datum_ukonceni>2019-01-18</datum_ukonceni>
+  <datum_ukonceni_v>2019-01-18</datum_ukonceni_v>
+  <hlavni_typ>vizuální/geodetický průzkum</hlavni_typ>
+  <lokalizace>SMETAK SG TEST. Parc. č. SMETAK SG TEST.</lokalizace>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2017-12-07</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>admin</odpovedny_pracovnik_zapisu>
+ </akce>
+ <akce>
+  <ident_cely>X-C-9728460A</ident_cely>
+  <typ>N</typ>
+  <je_nz>0</je_nz>
+  <okres>Hlavní město Praha</okres>
+  <katastr>SMÍCHOV</katastr>
+  <vedouci_akce>Hasil, Jan</vedouci_akce>
+  <organizace>[zahraniční badatel]</organizace>
+  <specifikace_data>v roce</specifikace_data>
+  <datum_zahajeni>1925</datum_zahajeni>
+  <datum_zahajeni_v>1925-01-01</datum_zahajeni_v>
+  <datum_ukonceni_v>1925-12-31</datum_ukonceni_v>
+  <hlavni_typ>sonda</hlavni_typ>
+  <lokalizace>V budově věznice trestního soudu.</lokalizace>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2018-07-18</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>hasil@arup.cas.cz</odpovedny_pracovnik_zapisu>
+ </akce>
+</amcr>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub>
+  <lst name="params">
+    <str name="q">*:*</str>
+    <str name="identifierHead">http://digiarchiv.amapa.cz/id/</str>
+    <str name="metadataPrefix">oai_dc</str>
+    <str name="requestStr">http://example.com/dapro/oai</str>
+    <str name="verb">ListRecords</str>
+    <str name="rows">2</str>
+    <str name="numFound">2</str>
+    <str name="link" class="project">res:export_project2.xml?rows=2</str>
+    <str name="datestamp">1970-01-01T00:00:00Z</str>
+  </lst>
+</stub>

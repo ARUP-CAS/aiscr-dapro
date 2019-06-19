@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<amcr>
+ <projekt>
+  <ident_cely>C-201800019</ident_cely>
+  <stav>6</stav>
+  <typ_projektu>záchranný</typ_projektu>
+  <datetime_born>2004-10-19 10:23:54</datetime_born>
+  <okres>Karlovy Vary</okres>
+  <katastr>ABERTAMY</katastr>
+  <podnet>a</podnet>
+  <lokalita>b</lokalita>
+  <parcelni_cislo>c</parcelni_cislo>
+  <planovane_zahajeni>d</planovane_zahajeni>
+  <objednatel>údaj odstraněn</objednatel>
+  <odpovedna_osoba>údaj odstraněn</odpovedna_osoba>
+  <adresa>údaj odstraněn</adresa>
+  <telefon>údaj odstraněn</telefon>
+  <email>údaj odstraněn</email>
+  <vedouci_projektu>Bárta, Václav</vedouci_projektu>
+  <organizace_zapisu>GIS</organizace_zapisu>
+  <organizace_prihlaseni>GIS</organizace_prihlaseni>
+  <kulturni_pamatka>bez ochrany</kulturni_pamatka>
+  <datum_zahajeni>2018-12-17</datum_zahajeni>
+  <datum_ukonceni>2018-12-17</datum_ukonceni>
+  <datum_zapisu>2018-12-17</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>admin</odpovedny_pracovnik_zapisu>
+  <datum_prihlaseni>2018-12-17</datum_prihlaseni>
+  <odpovedny_pracovnik_prihlaseni>admin</odpovedny_pracovnik_prihlaseni>
+  <datum_zapisu_zahajeni>2018-12-17</datum_zapisu_zahajeni>
+  <odpovedny_pracovnik_zahajeni>admin</odpovedny_pracovnik_zahajeni>
+  <datum_zapisu_ukonceni>2018-12-17</datum_zapisu_ukonceni>
+  <odpovedny_pracovnik_ukonceni>admin</odpovedny_pracovnik_ukonceni>
+  <datum_navrhu_archivace>2018-12-17</datum_navrhu_archivace>
+  <odpovedny_pracovnik_navrhu_archivace>admin</odpovedny_pracovnik_navrhu_archivace>
+  <datum_archivace>2018-12-17</datum_archivace>
+  <odpovedny_pracovnik_archivace>admin</odpovedny_pracovnik_archivace>
+  <termin_odevzdani_nz>2021-12-17</termin_odevzdani_nz>
+ </projekt>
+ <projekt>
+  <ident_cely>C-201811489</ident_cely>
+  <stav>3</stav>
+  <typ_projektu>záchranný</typ_projektu>
+  <datetime_born>2018-12-19 13:07:29</datetime_born>
+  <okres>Benešov</okres>
+  <katastr>BOLINA</katastr>
+  <podnet>kNN; IP-12-6012144</podnet>
+  <lokalita>-</lokalita>
+  <parcelni_cislo>2261/18</parcelni_cislo>
+  <planovane_zahajeni>02.11.2018</planovane_zahajeni>
+  <objednatel>person5194</objednatel>
+  <odpovedna_osoba>person36290</odpovedna_osoba>
+  <adresa>address4531</adresa>
+  <telefon>phone13133</telefon>
+  <email>email168</email>
+  <vedouci_projektu>Smejtek, Lubor</vedouci_projektu>
+  <organizace_zapisu>Pueblo</organizace_zapisu>
+  <organizace_prihlaseni>Pueblo</organizace_prihlaseni>
+  <uzivatelske_oznaceni>1405/2018</uzivatelske_oznaceni>
+  <kulturni_pamatka>bez ochrany</kulturni_pamatka>
+  <datum_zapisu>2018-12-10</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>Smejtek, Lubor</odpovedny_pracovnik_zapisu>
+  <datum_prihlaseni>2018-12-10</datum_prihlaseni>
+  <odpovedny_pracovnik_prihlaseni>Smejtek, Lubor</odpovedny_pracovnik_prihlaseni>
+ </projekt>
+</amcr>

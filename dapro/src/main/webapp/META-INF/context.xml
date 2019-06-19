@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/DataProvider">
+  <Parameter name="confdir" override="false" value="${cz.ssc.dapro.confdir}"/>
+  <Valve className="org.apache.catalina.valves.StuckThreadDetectionValve" threshold="600" interruptThreadThreshold="600" />
+</Context>

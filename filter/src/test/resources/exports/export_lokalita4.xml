@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<amcr>
+ <lokalita>
+  <ident_cely>C-L9000646</ident_cely>
+  <stav>3</stav>
+  <okres>Mělník</okres>
+  <katastr>VŠESTUDY U VELTRUS</katastr>
+  <typ_lokality>letecká archeologie</typ_lokality>
+  <druh>polygon leteckého průzkumu</druh>
+  <nazev>Lokalita Všestudy u Veltrus 2</nazev>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2017-10-15</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>amcr@arup.cas.cz</odpovedny_pracovnik_zapisu>
+  <datum_archivace>2017-10-15</datum_archivace>
+  <odpovedny_pracovnik_archivace>amcr@arup.cas.cz</odpovedny_pracovnik_archivace>
+ </lokalita>
+ <lokalita>
+  <ident_cely>C-L9000090</ident_cely>
+  <stav>1</stav>
+  <okres>Strakonice</okres>
+  <katastr>DOLNÍ POŘÍČÍ</katastr>
+  <typ_lokality>letecká archeologie</typ_lokality>
+  <druh>polygon leteckého průzkumu</druh>
+  <nazev>Lokalita Dolní Poříčí 1</nazev>
+  <pristupnost>C</pristupnost>
+  <datum_zapisu>2017-10-15</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>amcr@arup.cas.cz</odpovedny_pracovnik_zapisu>
+  <datum_archivace>2017-10-15</datum_archivace>
+  <odpovedny_pracovnik_archivace>amcr@arup.cas.cz</odpovedny_pracovnik_archivace>
+ </lokalita>
+ <lokalita>
+  <ident_cely>C-L9000098</ident_cely>
+  <stav>2</stav>
+  <okres>Česká Lípa</okres>
+  <katastr>DUBÁ</katastr>
+  <typ_lokality>letecká archeologie</typ_lokality>
+  <druh>polygon leteckého průzkumu</druh>
+  <nazev>Lokalita Dubá 1</nazev>
+  <pristupnost>D</pristupnost>
+  <datum_zapisu>2017-10-15</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>amcr@arup.cas.cz</odpovedny_pracovnik_zapisu>
+  <datum_archivace>2017-10-15</datum_archivace>
+  <odpovedny_pracovnik_archivace>amcr@arup.cas.cz</odpovedny_pracovnik_archivace>
+ </lokalita>
+ <lokalita>
+  <ident_cely>C-L9000403</ident_cely>
+  <stav></stav>
+  <okres>Litoměřice</okres>
+  <katastr>PODBRADEC</katastr>
+  <typ_lokality>letecká archeologie</typ_lokality>
+  <druh>polygon leteckého průzkumu</druh>
+  <nazev>Lokalita Podbradec 1</nazev>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2017-10-15</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>amcr@arup.cas.cz</odpovedny_pracovnik_zapisu>
+  <datum_archivace>2017-10-15</datum_archivace>
+  <odpovedny_pracovnik_archivace>amcr@arup.cas.cz</odpovedny_pracovnik_archivace>
+ </lokalita>
+</amcr>

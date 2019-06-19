@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub>
+  <lst name="params">
+    <str name="cannotDisseminateFormat">Invalid metadataPrefix of: </str>
+    <str name="identifierHead">http://digiarchiv.amapa.cz/id/</str>
+    <str name="metadataPrefix">dc_oai</str>
+    <str name="requestStr">http://localhost:8080/dapro/oai</str>
+    <str name="verb">ListRecords</str>
+    <str name="rows">5</str>
+    <str name="link" class="project">res:export_project2.xml</str>
+    <str name="link" class="event">res:export_event.xml</str>
+    <str name="datestamp">1970-01-01T00:00:00Z</str>
+  </lst>
+</stub>

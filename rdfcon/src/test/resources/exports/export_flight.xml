@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<amcr>
+ <let>
+  <ident_cely>C-LET-00001</ident_cely>
+  <datum>1992-05-31</datum>
+  <hodina_zacatek>13:40</hodina_zacatek>
+  <hodina_konec>14:50</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Polák</pilot>
+  <typ_letounu>Z 43 (OK-WOK)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Smrž. Navigátor: Smrž. Podmínky letu: vegetace. Teplota: 23 (st.). 21 dní bez srážek. Zralost plodin: I/zelená. Viditelné situace: vegetační příznaky; půdní příznaky; viditelné struktury; historická architektura; urbánní jednotky; těžba.</ucel_letu>
+  <letiste_start>Chomutov-Pesvice</letiste_start>
+  <letiste_cil>Chomutov-Pesvice</letiste_cil>
+  <pocasi>slunečno</pocasi>
+  <dohlednost>20-30 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00002</ident_cely>
+  <datum>1992-06-18</datum>
+  <hodina_zacatek>10:15</hodina_zacatek>
+  <hodina_konec>12:00</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Strma</pilot>
+  <typ_letounu>L60 S Brigadýr (OK-MTI)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Krejčí. Navigátor: Gojda. Podmínky letu: vegetace. Teplota: 22 (st.). 5 dní bez srážek. Zralost plodin: I/zelené. Viditelné situace: vegetační příznaky; stínové příznaky; viditelné struktury; historická architektura; urbánní jednotky.</ucel_letu>
+  <letiste_start>Velká Dobrá</letiste_start>
+  <letiste_cil>Velká Dobrá</letiste_cil>
+  <pocasi>?</pocasi>
+  <dohlednost>10-20 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00003</ident_cely>
+  <datum>1992-06-23</datum>
+  <hodina_zacatek>16:05</hodina_zacatek>
+  <hodina_konec>18:15</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Braasch, Otto</pilot>
+  <typ_letounu>Cessna 172 (D -EOBC)</typ_letounu>
+  <ucel_letu>Navigátor: Braasch, Gojda. Další osoby: St. Joseph (GB). Podmínky letu: vegetace. Teplota: 23 (st.). 10 dní bez srážek. Zralost plodin: I/zelená+II/přechod. Viditelné situace: vegetační příznaky; historická architektura.</ucel_letu>
+  <letiste_start>Karlovy Vary</letiste_start>
+  <letiste_cil>Praha-Letňany</letiste_cil>
+  <pocasi>zataženo</pocasi>
+  <dohlednost>&lt;10 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00004</ident_cely>
+  <datum>1992-06-24</datum>
+  <hodina_zacatek>14:30</hodina_zacatek>
+  <hodina_konec>17:30</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Braasch, Otto</pilot>
+  <typ_letounu>Cessna 172 (D-EOBC)</typ_letounu>
+  <ucel_letu>Navigátor: Braasch, Gojda. Další osoby: St. Joseph. Podmínky letu: vegetace. Teplota: 22 (st.) Zralost plodin: I+II/přechod zelené na žlutou. Viditelné situace: vegetační příznaky; viditelné struktury.</ucel_letu>
+  <letiste_start>Praha-Letňany</letiste_start>
+  <letiste_cil>Praha-Letňany</letiste_cil>
+  <pocasi>oblačno, zataženo</pocasi>
+  <dohlednost>&lt;10 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00005</ident_cely>
+  <datum>1992-06-25</datum>
+  <hodina_zacatek>12:45</hodina_zacatek>
+  <hodina_konec>14:45</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Braasch, Otto</pilot>
+  <typ_letounu>Cessna 172 (D-EOBC)</typ_letounu>
+  <ucel_letu>Navigátor: Braasch, Gojda. Další osoby: St. Joseph. Druhý let 16:15-18:00=1.45. Podmínky letu: vegetace. Teplota: 20 (st.). 1 den bez srážek. Zralost plodin: I+II. Viditelné situace: vegetační příznaky; viditelné struktury; historická architektura; urbánní jednotky.</ucel_letu>
+  <letiste_start>Praha-Letňany</letiste_start>
+  <pocasi>slunečno, oblačno</pocasi>
+  <dohlednost>&lt;10 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00006</ident_cely>
+  <datum>1992-07-09</datum>
+  <hodina_zacatek>11:05</hodina_zacatek>
+  <hodina_konec>12:45</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Šíma</pilot>
+  <typ_letounu>L60 S Brigadýr (OK-MTI)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Featherstone. Navigátor: Gojda, Bálek. Podmínky letu: vegetace. Teplota: 2 (st.). 5 dní bez srážek. Zralost plodin: III. Viditelné situace: vegetační příznaky; urbánní jednotky.</ucel_letu>
+  <letiste_start>Velká Dobrá</letiste_start>
+  <letiste_cil>Velká Dobrá</letiste_cil>
+  <pocasi>slunečno</pocasi>
+  <dohlednost>10-20 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00008</ident_cely>
+  <datum>1992-07-11</datum>
+  <hodina_zacatek>12:00</hodina_zacatek>
+  <hodina_konec>13:05</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Nechojdoma</pilot>
+  <typ_letounu>L60 S Brigadýr (OK-NNG)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Featherstone. Navigátor: Gojda. Neexponováno. Podmínky letu: vegetace. Teplota: 19 (st.). 8 dní bez srážek. Zralost plodin: II-III. Viditelné situace: vegetační příznaky.</ucel_letu>
+  <letiste_start>Praha-Letňany</letiste_start>
+  <letiste_cil>Praha-Letňany</letiste_cil>
+  <pocasi>oblačno</pocasi>
+  <dohlednost>&lt;10 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00009</ident_cely>
+  <datum>1992-07-14</datum>
+  <hodina_zacatek>9:30</hodina_zacatek>
+  <hodina_konec>11:40</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Kučera, Jaroslav</pilot>
+  <typ_letounu>L60 S Brigadýr (OK)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Featherstone. Navigátor: Gojda. Podmínky letu: vegetace. Teplota: 24 (st.). 10 dní bez srážek. Zralost plodin: II+III. Viditelné situace: vegetační příznaky; aktuálně zkoumané lokality; lineární transekty (plynovody aj.).</ucel_letu>
+  <letiste_start>Praha-Letňany</letiste_start>
+  <letiste_cil>Praha-Letňany</letiste_cil>
+  <pocasi>slunečno</pocasi>
+  <dohlednost>10-20 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00010</ident_cely>
+  <datum>1992-07-16</datum>
+  <hodina_zacatek>12:20</hodina_zacatek>
+  <hodina_konec>14:05</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Šíma</pilot>
+  <typ_letounu>L60 S Brigadýr (OK-MTI)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Čtverák. Navigátor: Gojda. Podmínky letu: vegetace. Teplota: 24 (st.). 12 dní bez srážek. Zralost plodin: II-III. Viditelné situace: vegetační příznaky; viditelné struktury; lineární transekty (plynovody aj.).</ucel_letu>
+  <letiste_start>Velká Dobrá</letiste_start>
+  <letiste_cil>Velká Dobrá</letiste_cil>
+  <pocasi>slunečno</pocasi>
+  <dohlednost>10-20 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00012</ident_cely>
+  <datum>1992-11-06</datum>
+  <hodina_zacatek>11:00</hodina_zacatek>
+  <hodina_konec>12:40</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Janíček, Tomáš</pilot>
+  <typ_letounu>L60 S Brigadýr (OK-NNG)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Čtverák, Majer. Navigátor: Gojda. Podmínky letu: nezakrytá půda; vegetace. Teplota: 12 (st.). 10 dní bez srážek. Viditelné situace: půdní příznaky; urbánní jednotky; aktuálně zkoumané lokality; lineární transekty (plynovody aj.).</ucel_letu>
+  <letiste_start>Praha-Letňany</letiste_start>
+  <letiste_cil>Praha-Letňany</letiste_cil>
+  <pocasi>slunečno</pocasi>
+  <dohlednost>10-20 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00013</ident_cely>
+  <datum>1993-03-20</datum>
+  <hodina_zacatek>15:15</hodina_zacatek>
+  <hodina_konec>17:00</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Nechojdoma</pilot>
+  <typ_letounu>L60 S Brigadýr (OK-NNG)</typ_letounu>
+  <ucel_letu>Navigátor: Gojda. Podmínky letu: nezakrytá půda. Teplota: 12 (st.). 5 dní bez srážek. Viditelné situace: půdní příznaky; viditelné struktury; historická architektura.</ucel_letu>
+  <letiste_start>Praha-Letňany</letiste_start>
+  <letiste_cil>Praha-Letňany</letiste_cil>
+  <pocasi>slunečno</pocasi>
+  <dohlednost>10-20 km</dohlednost>
+ </let>
+ <let>
+  <ident_cely>C-LET-00014</ident_cely>
+  <datum>1993-04-17</datum>
+  <hodina_zacatek>11:45</hodina_zacatek>
+  <hodina_konec>13:00</hodina_konec>
+  <pozorovatel>Gojda, Martin</pozorovatel>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pilot>Čepek</pilot>
+  <typ_letounu>Z 43 (OK FOI)</typ_letounu>
+  <ucel_letu>Další pozorovatelé: Prostředník. Navigátor: Gojda. Další osoby: Ulrychová. 1 film neexponován. Podmínky letu: nezakrytá půda. Teplota: 12 (st.). 14 dní bez srážek. Viditelné situace: půdní příznaky; historická architektura; urbánní jednotky; těžba.</ucel_letu>
+  <letiste_start>Jičín</letiste_start>
+  <letiste_cil>Jičín</letiste_cil>
+  <pocasi>slunečno</pocasi>
+  <dohlednost>10-20 km</dohlednost>
+ </let>
+</amcr>

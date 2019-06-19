@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<amcr>
+<akce>
+  <vazba_projekt_akce>
+   <id_projekt>C-201338222</id_projekt>
+  </vazba_projekt_akce>
+  <ident_cely>C-201338222A</ident_cely>
+  <typ>R</typ>
+  <stav>8</stav>
+  <je_nz>1</je_nz>
+  <okres>Teplice</okres>
+  <katastr>BÍLINA</katastr>
+  <vedouci_akce>Čech, Petr</vedouci_akce>
+  <organizace>Archeologický ústav Praha</organizace>
+  <specifikace_data>přesně</specifikace_data>
+  <datum_zahajeni_v>2017-07-22</datum_zahajeni_v>
+  <datum_ukonceni>2018-02-07</datum_ukonceni>
+  <datum_ukonceni_v>2018-02-07</datum_ukonceni_v>
+  <hlavni_typ>sonda</hlavni_typ>
+  <lokalizace>Teplické předměstí. Parc. č. 1683/15, 1683/31, 1683/54, 1683/58, 1683/91.</lokalizace>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2017-07-22</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>Novák, David</odpovedny_pracovnik_zapisu>
+  <datum_podani_nz>2018-02-07</datum_podani_nz>
+  <odpovedny_pracovnik_podani_nz>Novák, David</odpovedny_pracovnik_podani_nz>
+  <datum_archivace>2018-02-07</datum_archivace>
+  <odpovedny_pracovnik_archivace>Novák, David</odpovedny_pracovnik_archivace>
+ </akce>
+ <akce>
+  <ident_cely>C-9107421A</ident_cely>
+  <typ>N</typ>
+  <stav>8</stav>
+  <je_nz>0</je_nz>
+  <okres>Praha-východ</okres>
+  <katastr>SENOHRABY</katastr>
+  <vedouci_akce>Durdík, Tomáš</vedouci_akce>
+  <organizace>Archeologický ústav Praha</organizace>
+  <specifikace_data>v letech</specifikace_data>
+  <datum_zahajeni>1972</datum_zahajeni>
+  <datum_zahajeni_v>1972-01-01</datum_zahajeni_v>
+  <datum_ukonceni>2009</datum_ukonceni>
+  <datum_ukonceni_v>2009-12-31</datum_ukonceni_v>
+  <hlavni_typ>vizuální/geodetický průzkum</hlavni_typ>
+  <lokalizace>Hrad Zlenice (Hláska).</lokalizace>
+  <poznamka>Přehled pozorování a návštěv za účelem zjištění stavu hradu v letech 1972 - 2009. Podrobný povrchový průzkum spojený se sběry byl proveden spolu s P. Chotěborem roku 1972. Revize stavu hradu v letech 1983, 1994 a 1995, kdy byly zjištěny výrazná narušení, popsány v samostatných akcích. 			V roce 1996 v rámci jednání o úpravách hradu Nadací pro záchranu hradu Zlenice byla 	provedena revise stavu lokality. Nadace provedla částečnou redukci zeleně, jiak byl stav setrvalý, k novým narušením přes zimní období nedošlo. V roce 1997 byl stav hradu setrvalý, bez rušivých zásahů. Na jeho stabilizaci se výrazně kladně 	projevilo působení Nadace pro záchranu hrau Zlenice. Činnost Nadace se v r. 1998 soustředila na dozdění 	vnějšího líce hradby severně od prvé brány jádra. Stav hradu je setrvalý a dík	přítomnosti členů Nadace a regulaci návštěvnického provozu nedošlo k žádným 	zásahům do stávajícího terénu. Práce na hradě jsou prováděny na základě 	spolupráce s firmou Murus a ARÚ Praha. Od roku 1999 probíhá předstihový v souvislosti s činností Sdružení pro ochranu kulturního dědictví – Zlenice (původně Nadace pro záchranu hradu Zlenice) – popsáno v samostatných akcích.Dne 22.5.2000 projednán postup prací v roce 2000, které se soustředí na konzervaci a zastřešení prvé brány jádra. Další návštěvy proběhly v letech 2004, 2005, 2007 a byl při nich konstatován setrvalý stav. V roce 2009 byl dokončen komplexní povrchový průzkum.</poznamka>
+  <ulozeni_nalezu>Převážně Archaia, Archeocentrum.</ulozeni_nalezu>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2017-05-24</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>ARÚP, Administrátor</odpovedny_pracovnik_zapisu>
+  <datum_podani_nz>2017-05-24</datum_podani_nz>
+  <odpovedny_pracovnik_podani_nz>ARÚP, Administrátor</odpovedny_pracovnik_podani_nz>
+  <datum_archivace>2017-05-24</datum_archivace>
+  <odpovedny_pracovnik_archivace>ARÚP, Administrátor</odpovedny_pracovnik_archivace>
+ </akce>
+ <akce>
+  <ident_cely>C-9882979A</ident_cely>
+  <typ>N</typ>
+  <stav>8</stav>
+  <je_nz>0</je_nz>
+  <okres>Benešov</okres>
+  <katastr>TŘEBSÍN</katastr>
+  <vedouci_akce>Čtverák, Vladimír</vedouci_akce>
+  <organizace>Archeologický ústav Praha</organizace>
+  <specifikace_data>v roce</specifikace_data>
+  <datum_zahajeni>1989</datum_zahajeni>
+  <datum_zahajeni_v>1989-01-01</datum_zahajeni_v>
+  <datum_ukonceni_v>1989-12-31</datum_ukonceni_v>
+  <hlavni_typ>vertikální řez</hlavni_typ>
+  <lokalizace>Chatová osada Údolí ticha. Podnět: kabelové výkopy pro elektrické vedení.</lokalizace>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2014-03-01</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>Bárta, Václav</odpovedny_pracovnik_zapisu>
+  <odpovedny_pracovnik_autorizace>Čtvrtníčková, Lenka</odpovedny_pracovnik_autorizace>
+  <odpovedny_pracovnik_archivace_zaa>Bárta, Václav</odpovedny_pracovnik_archivace_zaa>
+  <odpovedny_pracovnik_podani_nz>Čtvrtníčková, Lenka</odpovedny_pracovnik_podani_nz>
+  <datum_archivace>2014-05-01</datum_archivace>
+  <odpovedny_pracovnik_archivace>Bárta, Václav</odpovedny_pracovnik_archivace>
+  <datum_zamitnuti>2014-06-01</datum_zamitnuti>
+ </akce>
+ <akce>
+  <ident_cely>C-201800827A</ident_cely>
+  <typ>R</typ>
+  <stav>8</stav>
+  <je_nz>0</je_nz>
+  <okres>Mělník</okres>
+  <katastr>TIŠICE</katastr>
+  <vedouci_akce>Turek, Jan</vedouci_akce>
+  <organizace>Archeologický ústav Praha</organizace>
+  <specifikace_data>v roce</specifikace_data>
+  <datum_zahajeni>1996</datum_zahajeni>
+  <datum_zahajeni_v>1996-01-01</datum_zahajeni_v>
+  <datum_ukonceni_v>1996-12-31</datum_ukonceni_v>
+  <hlavni_typ>plošný odkryv</hlavni_typ>
+  <lokalizace>Pískovna SZ od Červeného mlýna, ppč.331/3. Podnět: pískovna.</lokalizace>
+  <poznamka>Záchranný výzkum navázal na dlouhodobé sledování skrývek při rozšiřování těžby v místní pískovně.</poznamka>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2018-01-31</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>Kuna, Martin</odpovedny_pracovnik_zapisu>
+  <datum_podani_nz>2018-01-31</datum_podani_nz>
+  <odpovedny_pracovnik_podani_nz>Kuna, Martin</odpovedny_pracovnik_podani_nz>
+  <datum_archivace>2018-03-14</datum_archivace>
+  <odpovedny_pracovnik_archivace>ARÚP, Administrátor</odpovedny_pracovnik_archivace>
+ </akce>
+ <akce>
+  <ident_cely>C-201800827E</ident_cely>
+  <typ>R</typ>
+  <stav>8</stav>
+  <je_nz>0</je_nz>
+  <okres>Mělník</okres>
+  <katastr>TIŠICE</katastr>
+  <vedouci_akce>Turek, Jan</vedouci_akce>
+  <organizace>Archeologický ústav Praha</organizace>
+  <specifikace_data>v roce</specifikace_data>
+  <datum_zahajeni>1999</datum_zahajeni>
+  <datum_zahajeni_v>1999-01-01</datum_zahajeni_v>
+  <datum_ukonceni_v>1999-12-31</datum_ukonceni_v>
+  <hlavni_typ>plošný odkryv</hlavni_typ>
+  <lokalizace>Pískovna, na Z straně silnice Mělník - Kostelec nad Labem. Podnět: pískovna.</lokalizace>
+  <poznamka>Skrývky v předpolí pískovny proběhly v prostoru na sever (DJ-01 a DJ-02) a na jih (DJ-03) od plochy zkoumané v letech 1996-1998, o celkové rozloze necelé 3 ha. V zájmovém prostoru archeologického výzkumu bylo evidováno 100 objektů sídlištního a pohřebního charakteru. Velmi vzácným objevem byla komponenta žárového pohřebiště z období kultury s vypíchanou keramikou, jehož identifikace byla umožněna správně volenou hloubkou skrývky zachovávající též vrstvu podorničí, do kterého byla většina kremací zapuštěna. Tato technika odkryvu vyžadovala poměrně zdlouhavou ruční skrývku po mělké strojové skrývce. Celkem 15 dokumentovaných hrobů mělo jako pohřební výbavu přidány keramické nádoby, pazourkové nástroje a zlomek kamenného sekeromlatu (které rovněž prošly žárem pohřební hranice) a spálené či nespálené kosti zvířat (většinou hovězího dobytka). Chronologicky dále následuje sídlištní objekt č.121/99 s bohatými keramickými nálezy kultury s kanelovanou keramikou. Dalším významným nálezem byl kostrový pohřeb z období kultury zvoncových pohárů. Hrob 77/99 se po strojové skrývce jevil v půdorysu jako velmi výrazný útvar širokého obdélníku se sytě tmavým pásem lemujícím okraje hrobové jámy jinak vyplněné převážně světlým prostupným pískem. Již v zásypu byly patrné zlomky spálených lidských kostí a šikmý vkop narušující hrobovou jámu z jihu, tento směřoval víceméně k lebce pohřbu, skelet však nenarušil. Jde s největší pravděpodobností o výkop sekundárního žárového pohřbu. Spodní partie hrobu, v hloubce 80 cm pod povrchem skrývky, byly vyplněny sytě černou vrstvou, která přímo překrývala pohřeb s milodary. Na této úrovni se již zcela jasně jevily stopy dřevěné konstrukce hrobové jámy a to ve formě tmavých popelovitě černých pásů podél všech čtyř stěn a šikmo vzhůru stoupajících stínů po kůlech v každém rohu komory. Stěny byly takto vydřeveny v šikmo vzhůru se rozšiřující konstrukci. Samotný kostrový pohřeb byl poměrně velmi dobře zachován, kostra byla téměř zcela neporušena, i když ojedinělé spálené kůstky dosahovaly až na její povrch. Tělo bylo uloženo na pravém boku, hlavou orientováno k jihu, tedy v poloze typické pro ženské pohřby. Nálezy: 5 zdobených zvoncovitých pohárů, 1 nezdobený zvoncovitý pohár, 1 hrnek s uchem, 2 zdobené zlaté plíšky (ozdoby vlasů, 2 kamenné nátepní destičky, 1 měděná dýčka, 1 měděné šídlo, 1 jantarový knoflík s V-vrtáním, 2 pazourkové úštěpy, zlomek kostěného artefaktu ?, v zásypu další 3 zlomky zdobených zvoncovitých pohárů a pazourkový úštěp. V partii za zády pohřbené byly odebrány vzorky pro analýzu obsahu fosfátů. Tyto byly odebrány ve čtvercové síti tak, aby bylo možno lokalizovat polohu případných dalších organických milodarů. Analýza A.Majera prokázala vysokou koncentraci P205 v prostoru mezi pohárem č.7 a zády zemřelé. Mohlo jít o masitý milodar, či nedochovaný dětský pohřeb(?). Interpretace: Jde o kostrový pohřeb ženy v dřevěné pohřební komoře s doklady druhotného žárového pohřbu v zásypu jámy. Podobný jev je běžný u analogických hrobů z Moravy (Tvořihráz, Smolín atd.), kde jsou tyto bohaté hroby s typologicky starou výbavou často provázeny druhotnými žárovými pohřby. Ty se objevují také v kruhových příkopech okolo hrobové jámy. Takový příkop nebyl v Tišicích zachycen. Dalším pohřebním nálezem byl hrob kultury mohylové, který byl překryt nízkým kamenným náspem (zřejmě pozůstatek mohyly) a obsahoval dva kostrové pohřby vybavené dvěma džbány, mísou s uchem a zdobeným bronzovým páskem, pravděpodobně součástí náramku. Sídlištní komponenty jsou v lokalitě representovány ještě zahloubenou chatou a dalšími objekty z mladší doby římské a dále řadou sídlištních objektů starší doby hradištní prostorově navazujících na vesnici zachycenou výzkumem v roce 1997. Při identifikaci zahloubených objektů byla použita geofyzikální prospekce (R.Křivánek) za použití caesiového magnetometru. M.Kuna provedl zaměření všech objevených objektů do sítě geografických souřadnic satelitním systémem GPS.</poznamka>
+  <ulozeni_nalezu>ARÚ Praha.</ulozeni_nalezu>
+  <pristupnost>A</pristupnost>
+  <datum_zapisu>2018-01-31</datum_zapisu>
+  <odpovedny_pracovnik_zapisu>Kuna, Martin</odpovedny_pracovnik_zapisu>
+  <datum_podani_nz>2018-01-31</datum_podani_nz>
+  <odpovedny_pracovnik_podani_nz>Kuna, Martin</odpovedny_pracovnik_podani_nz>
+  <datum_archivace>2018-03-14</datum_archivace>
+  <odpovedny_pracovnik_archivace>ARÚP, Administrátor</odpovedny_pracovnik_archivace>
+ </akce>
+</amcr>
