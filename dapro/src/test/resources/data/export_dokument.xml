@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<amcr>
+<dokument>
+  <ident_cely>C-DL-200400001</ident_cely>
+  <let>C-LET-00253</let>
+  <stav>3</stav>
+  <typ_dokumentu>letfoto vegetačních příznaků</typ_dokumentu>
+  <material_originalu>digitální soubor</material_originalu>
+  <rada>DL</rada>
+  <autor>Gojda, Martin</autor>
+  <rok_vzniku>2004</rok_vzniku>
+  <organizace>Archeologický ústav Praha</organizace>
+  <pristupnost>A</pristupnost>
+  <datum_zverejneni>2007-12-31</datum_zverejneni>
+  <jazyk_dokumentu>x</jazyk_dokumentu>
+  <ulozeni_originalu>primárně digitální dokument</ulozeni_originalu>
+  <popis>Lokalita Ctiněves 2.</popis>
+  <datum_vlozeni>2018-06-15</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>ARÚP, Administrátor</odpovedny_pracovnik_vlozeni>
+  <datum_archivace>2018-06-15</datum_archivace>
+  <odpovedny_pracovnik_archivace>ARÚP, Administrátor</odpovedny_pracovnik_archivace>
+  <extra_data>
+   <zachovalost>N</zachovalost>
+   <nahrada>1</nahrada>
+   <pocet_variant_originalu>2</pocet_variant_originalu>
+   <datum_vzniku>2004-05-14</datum_vzniku>
+   <pas>pas</pas>
+   <easting>12345</easting>
+   <northing>67890</northing>
+  </extra_data>
+  <tvar>
+   <pom_id>574</pom_id>
+   <dokument>C-DL-200400001</dokument>
+   <tvar>shluk bodových objektů</tvar>
+  </tvar>
+  <jednotka_dokumentu>
+   <ident_cely>C-DL-200400001-D01</ident_cely>
+   <dokument>C-DL-200400001</dokument>
+   <vazba_lokalita>C-L9000043</vazba_lokalita>
+   <komponenta_dokument>
+    <ident_cely>C-DL-200400001-K01</ident_cely>
+    <parent>C-DL-200400001-D01</parent>
+    <obdobi>pr.zem</obdobi>
+    <areal>sídliště nesp.</areal>
+    <aktivita_sidlistni>1</aktivita_sidlistni>
+    <aktivita_pohrebni>0</aktivita_pohrebni>
+    <aktivita_vyrobni>0</aktivita_vyrobni>
+    <aktivita_tezebni>0</aktivita_tezebni>
+    <aktivita_kultovni>0</aktivita_kultovni>
+    <aktivita_komunikace>0</aktivita_komunikace>
+    <aktivita_deponovani>0</aktivita_deponovani>
+    <aktivita_intruze>0</aktivita_intruze>
+    <aktivita_boj>0</aktivita_boj>
+    <aktivita_jina>0</aktivita_jina>
+    <nalez_dokumentu>
+     <pom_id>974</pom_id>
+     <komponenta_dokument>C-DL-200400001-K01</komponenta_dokument>
+     <typ_nalezu>O</typ_nalezu>
+     <kategorie>zahloubený objekt</kategorie>
+     <druh_nalezu>jáma nesp.</druh_nalezu>
+    </nalez_dokumentu>
+    <nalez_dokumentu>
+     <pom_id>3412</pom_id>
+     <komponenta_dokument>C-DL-200400001-K01</komponenta_dokument>
+     <typ_nalezu>O</typ_nalezu>
+     <kategorie>zahloubený objekt</kategorie>
+     <druh_nalezu>(polo)zemnice</druh_nalezu>
+    </nalez_dokumentu>
+   </komponenta_dokument>
+  </jednotka_dokumentu>
+  <odkaz>
+   <vazba_akce>C-201900023A</vazba_akce>
+   <vazba_lokalita>C-L9000043</vazba_lokalita>
+  </odkaz>
+ </dokument>
+</amcr>

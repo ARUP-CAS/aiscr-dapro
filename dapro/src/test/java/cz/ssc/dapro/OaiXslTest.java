@@ -78,6 +78,13 @@ public class OaiXslTest extends TestCase {
     }
 
     @Test
+    public void testGetRecordDocSchema() throws Exception {
+        Document doc = transform("get-amcr-stub.xml", null);
+        NodeList nodes = (NodeList)xp.evaluate("//*[local-name()='record']", doc, XPathConstants.NODESET);
+        assertEquals(1, nodes.getLength());
+    }
+
+    @Test
     public void testGetRecordSoubor() throws Exception {
         Document doc = transform("get-soubor.xml", null);
         NodeList nodes = (NodeList)xp.evaluate("//*[local-name()='record']", doc, XPathConstants.NODESET);
@@ -93,6 +100,13 @@ public class OaiXslTest extends TestCase {
         doc = transform("stub.xml", null);
         nodes = (NodeList)xp.evaluate("//*[local-name()='record']", doc, XPathConstants.NODESET);
         assertEquals(1, nodes.getLength());
+    }
+
+    @Test
+    public void testListRecordsExtSourceSchema() throws Exception {
+        Document doc = transform("list-bib.xml", null);
+        NodeList nodes = (NodeList)xp.evaluate("//*[local-name()='record']", doc, XPathConstants.NODESET);
+        assertEquals(5, nodes.getLength());
     }
 
     public void testListRecordsStart() throws Exception {

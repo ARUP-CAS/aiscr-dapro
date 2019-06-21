@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><amcr><ext_zdroj>
+  <ident_cely>X-BIB-0709996</ident_cely>
+  <stav>2</stav>
+  <typ>kniha</typ>
+  <autori>Novák, David;Kuna, Martin (ed.)</autori>
+  <nazev>Test</nazev>
+  <podnazev>test</podnazev>
+  <rok_vydani_vzniku>2017</rok_vydani_vzniku>
+  <misto>Praha</misto>
+  <datum_vlozeni>2017-06-16</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>Novák, David</odpovedny_pracovnik_vlozeni>
+  <ext_odkaz>
+   <pom_id>1</pom_id>
+   <externi_zdroj>X-BIB-0709996</externi_zdroj>
+   <vazba_akce>C-201226116A</vazba_akce>
+   <paginace>1234</paginace>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>2</pom_id>
+   <externi_zdroj>X-BIB-0709997</externi_zdroj>
+   <vazba_akce>C-201226116B</vazba_akce>
+   <paginace>5678</paginace>
+  </ext_odkaz>
+ </ext_zdroj><ext_zdroj>
+  <ident_cely>X-BIB-0710038</ident_cely>
+  <stav>2</stav>
+  <typ>kniha</typ>
+  <autori>Kuna, Martin (ed.);Novák, David</autori>
+  <nazev>asdfasdf</nazev>
+  <rok_vydani_vzniku>2017</rok_vydani_vzniku>
+  <misto>asfd</misto>
+  <datum_vlozeni>2017-07-22</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>Novák, David</odpovedny_pracovnik_vlozeni>
+  <ext_odkaz>
+   <pom_id>3</pom_id>
+   <externi_zdroj>X-BIB-0710038</externi_zdroj>
+   <vazba_akce>C-201230311A</vazba_akce>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>9</pom_id>
+   <externi_zdroj>X-BIB-0710038</externi_zdroj>
+   <vazba_lokalita>C-L9000735</vazba_lokalita>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>11</pom_id>
+   <externi_zdroj>X-BIB-0710038</externi_zdroj>
+   <vazba_akce>C-201664411A</vazba_akce>
+  </ext_odkaz>
+ </ext_zdroj><ext_zdroj>
+  <ident_cely>X-BIB-0710062</ident_cely>
+  <stav>2</stav>
+  <typ>kniha</typ>
+  <autori>Kuna, Martin;Novák, Kamil;Junková, Andrea (ed.)</autori>
+  <nazev>xxx</nazev>
+  <rok_vydani_vzniku>2017</rok_vydani_vzniku>
+  <misto>Praha</misto>
+  <datum_vlozeni>2017-08-01</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>Kuna, Martin</odpovedny_pracovnik_vlozeni>
+  <ext_odkaz>
+   <pom_id>4</pom_id>
+   <externi_zdroj>X-BIB-0710062</externi_zdroj>
+   <vazba_akce>M-201700006A</vazba_akce>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>5</pom_id>
+   <externi_zdroj>X-BIB-0710062</externi_zdroj>
+   <vazba_akce>C-201700004A</vazba_akce>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>6</pom_id>
+   <externi_zdroj>X-BIB-0710062</externi_zdroj>
+   <vazba_akce>C-9108576A</vazba_akce>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>10</pom_id>
+   <externi_zdroj>X-BIB-0710062</externi_zdroj>
+   <vazba_akce>C-201700016A</vazba_akce>
+  </ext_odkaz>
+ </ext_zdroj><ext_zdroj>
+  <ident_cely>X-BIB-0710085</ident_cely>
+  <stav>2</stav>
+  <typ>kniha</typ>
+  <autori>Novák, David (ed.)</autori>
+  <nazev>aaa</nazev>
+  <rok_vydani_vzniku>2017</rok_vydani_vzniku>
+  <misto>bbb</misto>
+  <datum_vlozeni>2017-09-04</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>Novák, David</odpovedny_pracovnik_vlozeni>
+  <ext_odkaz>
+   <pom_id>7</pom_id>
+   <externi_zdroj>X-BIB-0710085</externi_zdroj>
+   <vazba_akce>M-200500017A</vazba_akce>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>8</pom_id>
+   <externi_zdroj>X-BIB-0710085</externi_zdroj>
+   <vazba_akce>C-201443939A</vazba_akce>
+  </ext_odkaz>
+ </ext_zdroj><ext_zdroj>
+  <ident_cely>X-BIB-0713171</ident_cely>
+  <stav>2</stav>
+  <typ>kniha</typ>
+  <autori>Novák, David (ed.);Kuna, Martin</autori>
+  <nazev>Ahoj</nazev>
+  <rok_vydani_vzniku>2017</rok_vydani_vzniku>
+  <misto>Praha</misto>
+  <datum_vlozeni>2017-11-27</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>Novák, David</odpovedny_pracovnik_vlozeni>
+ </ext_zdroj><ext_zdroj>
+  <ident_cely>X-BIB-0719708</ident_cely>
+  <stav>2</stav>
+  <typ>část knihy</typ>
+  <autori>Kuna, Martin</autori>
+  <nazev>sdfsdf</nazev>
+  <rok_vydani_vzniku>2018</rok_vydani_vzniku>
+  <sbornik_editor>Novák, David</sbornik_editor>
+  <sbornik_nazev>test</sbornik_nazev>
+  <misto>Praha</misto>
+  <paginace_titulu>3</paginace_titulu>
+  <datum_vlozeni>2018-04-27</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>Novák, David</odpovedny_pracovnik_vlozeni>
+ </ext_zdroj><ext_zdroj>
+  <ident_cely>X-BIB-0724955</ident_cely>
+  <stav>2</stav>
+  <typ>část knihy</typ>
+  <autori>Novák, David</autori>
+  <nazev>asdasd</nazev>
+  <rok_vydani_vzniku>2018</rok_vydani_vzniku>
+  <sbornik_editor>Kuna, Martin</sbornik_editor>
+  <sbornik_nazev>asd</sbornik_nazev>
+  <misto>asd</misto>
+  <paginace_titulu>15-20</paginace_titulu>
+  <datum_vlozeni>2018-05-16</datum_vlozeni>
+  <odpovedny_pracovnik_vlozeni>Novák, David</odpovedny_pracovnik_vlozeni>
+  <ext_odkaz>
+   <pom_id>13</pom_id>
+   <externi_zdroj>X-BIB-0724955</externi_zdroj>
+   <vazba_akce>C-201232899A</vazba_akce>
+  </ext_odkaz>
+  <ext_odkaz>
+   <pom_id>14</pom_id>
+   <externi_zdroj>X-BIB-0724955</externi_zdroj>
+   <vazba_akce>C-201800006A</vazba_akce>
+   <paginace>152</paginace>
+  </ext_odkaz>
+ </ext_zdroj>
+</amcr>

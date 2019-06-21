@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub>
   <lst name="params">
-    <str name="identifier">http://digiarchiv.amapa.cz/id/C-201811489</str>
-    <str name="identifierHead">http://digiarchiv.amapa.cz/id/</str>
+    <str name="identifier">https://api.aiscr.cz/id/C-DL-200400001</str>
+    <str name="identifierHead">https://api.aiscr.cz/id/</str>
     <str name="metadataPrefix">oai_amcr</str>
     <str name="requestStr">http://example.com/dapro/oai</str>
     <str name="verb">GetRecord</str>
     <str name="rows">1</str>
     <str name="numFound">1</str>
-    <str name="link" class="project">res:export_project2.xml</str>
+    <str name="link" class="dokument">res:export_dokument.xml</str>
     <str name="datestamp">1970-01-01T00:00:00Z</str>
   </lst>
 </stub>
