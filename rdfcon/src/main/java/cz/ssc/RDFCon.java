@@ -36,13 +36,15 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
-import org.apache.commons.cli.ParseException;
 import org.apache.commons.cli.PosixParser;
+import org.w3c.dom.DOMConfiguration;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.w3c.dom.ls.DOMImplementationLS;
+import org.w3c.dom.ls.LSSerializer;
 
 /**
  *
@@ -85,14 +87,14 @@ public class RDFCon {
         Generator policy = X3MLGeneratorPolicy.load(new FileInputStream(
                 new File(GENERATOR_POLICY_PATH)), X3MLGeneratorPolicy.createUUIDSource(UUID_SIZE));
 
+        XPathFactory xfactory = XPathFactory.newInstance();
+        XPath xpath = xfactory.newXPath();
         if (!ALL_AT_ONCE) {
             LOGGER.log(Level.FINE, "Performing conversion per partes ...");
 
             // Parse the XML into the Document object
-            XPathFactory xfactory = XPathFactory.newInstance();
-            XPath xpath = xfactory.newXPath();
             XPathExpression allProductsExpression = xpath.compile("/amcr/" + KEYWORD);
-            Document doc = getDocument(INPUT_PATH);
+            Document doc = getDocument(xpath, INPUT_PATH);
             NodeList nodes = (NodeList) allProductsExpression.evaluate(doc, XPathConstants.NODESET);
             LOGGER.log(Level.INFO, "Found {0} results", nodes.getLength());
 
@@ -150,7 +152,7 @@ public class RDFCon {
         } else {
             LOGGER.log(Level.FINE, "Performing conversion all at once ...");
             // Parse XML into Document object
-            Element element = getDocument(INPUT_PATH).getDocumentElement();
+            Element element = getDocument(xpath, INPUT_PATH).getDocumentElement();
             // Perform the conversion all at once
             X3MLEngine.Output output = engine.execute(element, policy);
             // Write into the RDF file
@@ -251,9 +253,29 @@ public class RDFCon {
         return factory;
     }
 
-    private static Document getDocument(String INPUT_PATH) throws ParserConfigurationException,
-            SAXException, IOException {
+    private static Document getDocument(XPath xpath, String INPUT_PATH)
+            throws ParserConfigurationException,
+            SAXException, IOException, XPathExpressionException {
         Document doc = documentBuilderFactory().newDocumentBuilder().parse(INPUT_PATH);
+
+        DOMImplementationLS lsImpl = (DOMImplementationLS)doc.getImplementation();
+        LSSerializer serializer = lsImpl.createLSSerializer();
+        DOMConfiguration config = serializer.getDomConfig();
+        config.setParameter("xml-declaration", false);
+        NodeList nodes = (NodeList)xpath.evaluate("//geom_gml", doc, XPathConstants.NODESET);
+        for (int i = 0; i < nodes.getLength(); ++i) {
+            Element parent = (Element)(nodes.item(i));
+            StringBuilder sb = new StringBuilder();
+            Node child = parent.getFirstChild();
+            while (child != null) {
+                String v = serializer.writeToString(child);
+                sb.append(v);
+                child = child.getNextSibling();
+            }
+
+            parent.setTextContent(sb.toString());
+        }
+
         return doc;
     }
 
