@@ -32,6 +32,7 @@ public class RDFFilter {
             case Constants.SITE:
             case Constants.PIAN:
             case Constants.DOC_UNIT:
+            case Constants.PAS:
                 nodeAccessLvl = getNodeAccessLevel(element);
                 String parentKeyword;
                 // I am filtering dok_jenotka keywords based on required state of its parent keyword
@@ -87,6 +88,8 @@ public class RDFFilter {
                 return 'P'==nodeState;
             case Constants.PROJECT:
                 return '6'==nodeState;
+            case Constants.PAS:
+                return '5'==nodeState;
             default:
                 throw new TagNotFoundException("Required states for keyword " + keyword + " not defined");
         }

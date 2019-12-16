@@ -12,7 +12,7 @@ public class ResumptionToken {
     public static final String[] PROCESSION = { Constants.PROJECT,
         Constants.EVENT, Constants.SITE, Constants.FLIGHT, Constants.DOC_UNIT,
         Constants.DOCUMENT, Constants.EXT_SOURCE, Constants.PIAN,
-        Constants.FILE };
+        Constants.FILE, Constants.PAS, Constants.ADB};
 
     private final String day;
 

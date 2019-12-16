@@ -87,5 +87,23 @@
         </oai_dc:dc>
       </setDescription>
     </set>
+    <set>
+      <setSpec>samostatny_nalez</setSpec>
+      <setName>Samostatný nález / TODO</setName>
+      <setDescription>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <xsl:element name="dc:description">TODO.</xsl:element>
+        </oai_dc:dc>
+      </setDescription>
+    </set>
+    <set>
+      <setSpec>adb</setSpec>
+      <setName>Archeologický dokumentační bod / TODO</setName>
+      <setDescription>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <xsl:element name="dc:description">TODO.</xsl:element>
+        </oai_dc:dc>
+      </setDescription>
+    </set>
   </xsl:template>
 </xsl:stylesheet>
