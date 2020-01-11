@@ -33,10 +33,11 @@ public class RDFFilter {
             case Constants.PIAN:
             case Constants.DOC_UNIT:
             case Constants.PAS:
+            case Constants.ADB:
                 nodeAccessLvl = getNodeAccessLevel(element);
                 String parentKeyword;
                 // I am filtering dok_jenotka keywords based on required state of its parent keyword
-                if(Constants.DOC_UNIT.equals(keyword)){
+                if(Constants.DOC_UNIT.equals(keyword) || Constants.ADB.equals(keyword)){
                     parentKeyword = findDocUnitParent(element);
                     nodeState = getNodeState(keyword, element, parentKeyword);
                     keyword = parentKeyword;
@@ -89,7 +90,7 @@ public class RDFFilter {
             case Constants.PROJECT:
                 return '6'==nodeState;
             case Constants.PAS:
-                return '5'==nodeState;
+                return '4'==nodeState;
             default:
                 throw new TagNotFoundException("Required states for keyword " + keyword + " not defined");
         }
@@ -106,6 +107,8 @@ public class RDFFilter {
                     throw new TagNotFoundException("First characer of indent_cely value is different then P or N");
                 }
             case Constants.DOC_UNIT: // Here I am looking for tag "dok_jednotka" there can be "lokalita_stav" and "akce_stav"
+                return getTagCharValue(element, parent+"_stav");
+            case Constants.ADB: // Here I am looking for tag "dok_jednotka" there can be "lokalita_stav" and "akce_stav"
                 return getTagCharValue(element, parent+"_stav");
             default:
                 return getTagCharValue(element, "stav"); // Else I am looking for tag "stav"

@@ -22,6 +22,7 @@
         <xsd:element name="soubor" type="oai_amcr:FileType"/>
         <xsd:element name="ext_zdroj" type="oai_amcr:ExternalSourceType"/>
         <xsd:element name="pian" type="oai_amcr:PianType"/>
+        <xsd:element name="adb" type="oai_amcr:AdbType"/>
       </xsd:choice>
     </xsd:complexType>
   </xsd:element>
@@ -68,6 +69,8 @@
       <xsd:element name="termin_odevzdani_nz" minOccurs="0" maxOccurs="1" type="xsd:date"/>
       <xsd:element name="geometry_e" minOccurs="0" maxOccurs="1" type="xsd:float"/>
       <xsd:element name="geometry_n" minOccurs="0" maxOccurs="1" type="xsd:float"/>
+      <xsd:element name="child_akce" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      <xsd:element name="child_soubor" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 
@@ -119,6 +122,9 @@
       <xsd:element name="odpovedny_pracovnik_archivace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="datum_zamitnuti" minOccurs="0" maxOccurs="1" type="xsd:date"/>
       <xsd:element name="odpovedny_pracovnik_zamitnuti" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="child_dok_jednotka" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      <xsd:element name="child_dokument" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      <xsd:element name="child_ext_zdroj" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 
@@ -140,6 +146,9 @@
       <xsd:element name="odpovedny_pracovnik_zapisu" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="datum_archivace" minOccurs="0" maxOccurs="1" type="xsd:date"/>
       <xsd:element name="odpovedny_pracovnik_archivace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="child_dok_jednotka" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      <xsd:element name="child_dokument" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      <xsd:element name="child_ext_zdroj" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 
@@ -160,6 +169,7 @@
       <xsd:element name="pocasi" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="dohlednost" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="uzivatelske_oznaceni" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="child_dokument" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 
@@ -176,7 +186,6 @@
       <xsd:element name="typ" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="negativni_jednotka" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="nazev" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-      <xsd:element name="ADB" minOccurs="0" maxOccurs="1" type="oai_amcr:ADBType"/>
       <xsd:element name="komponenta" minOccurs="0" maxOccurs="unbounded" type="oai_amcr:ComponentType"/>
     </xsd:sequence>
   </xsd:complexType>
@@ -220,6 +229,8 @@
   <xsd:complexType name="ADBType">
     <xsd:sequence>
       <xsd:element name="ident_cely" minOccurs="1" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="akce_stav" minOccurs="0" maxOccurs="1" type="xsd:integer"/>
+      <xsd:element name="pristupnost" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="typ_sondy" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="uzivatelske_oznaceni_sondy" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="trat" minOccurs="0" maxOccurs="1" type="xsd:string"/>
@@ -273,6 +284,7 @@
       <xsd:element name="extra_data" minOccurs="0" maxOccurs="unbounded" type="oai_amcr:ExtraDataType"/>
       <xsd:element name="tvar" minOccurs="0" maxOccurs="unbounded" type="oai_amcr:ShapeType"/>
       <xsd:element name="jednotka_dokumentu" minOccurs="0" maxOccurs="unbounded" type="oai_amcr:DocumentUnitType"/>
+      <xsd:element name="child_soubor" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
       <xsd:element name="odkaz" minOccurs="0" maxOccurs="unbounded">
         <xsd:complexType>
           <xsd:sequence>
@@ -462,6 +474,7 @@
       <xsd:element name="geom_wkt" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="centroid_e" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="centroid_n" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="child_dok_jednotka" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 </xsd:schema>
