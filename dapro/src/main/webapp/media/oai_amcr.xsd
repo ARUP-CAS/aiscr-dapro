@@ -70,7 +70,6 @@
       <xsd:element name="geometry_e" minOccurs="0" maxOccurs="1" type="xsd:float"/>
       <xsd:element name="geometry_n" minOccurs="0" maxOccurs="1" type="xsd:float"/>
       <xsd:element name="child_akce" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
-      <xsd:element name="child_soubor" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 
@@ -186,6 +185,7 @@
       <xsd:element name="typ" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="negativni_jednotka" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="nazev" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="child_adb" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="komponenta" minOccurs="0" maxOccurs="unbounded" type="oai_amcr:ComponentType"/>
     </xsd:sequence>
   </xsd:complexType>
@@ -226,13 +226,14 @@
     </xsd:sequence>
   </xsd:complexType>
 
-  <xsd:complexType name="ADBType">
+  <xsd:complexType name="AdbType">
     <xsd:sequence>
       <xsd:element name="ident_cely" minOccurs="1" maxOccurs="1" type="xsd:string"/>
-      <xsd:element name="akce_stav" minOccurs="0" maxOccurs="1" type="xsd:integer"/>
+      <xsd:element name="parent" minOccurs="1" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="datum" minOccurs="1" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="pristupnost" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+      <xsd:element name="akce_stav" minOccurs="0" maxOccurs="1" type="xsd:integer"/>
       <xsd:element name="typ_sondy" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-      <xsd:element name="uzivatelske_oznaceni_sondy" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="trat" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="cislo_popisne" minOccurs="0" maxOccurs="1" type="xsd:string"/>
       <xsd:element name="parcelni_cislo" minOccurs="0" maxOccurs="1" type="xsd:string"/>
