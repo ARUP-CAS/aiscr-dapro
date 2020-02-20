@@ -32,7 +32,6 @@ public class RDFFilter {
             case Constants.SITE:
             case Constants.PIAN:
             case Constants.DOC_UNIT:
-            case Constants.PAS:
                 nodeAccessLvl = getNodeAccessLevel(element);
                 String parentKeyword;
                 // I am filtering dok_jenotka keywords based on required state of its parent keyword
@@ -62,6 +61,12 @@ public class RDFFilter {
                 }
                 break;
                 // Here I dont filter at all
+            case Constants.PAS:
+                 nodeAccessLvl = getNodeAccessLevel(element);
+                 if (userAccessLvl < nodeAccessLvl) {
+                     deleteElementByName(element, "lokalizace");
+                     deleteElementByName(element, "katastr");
+                 }
             case Constants.EXT_SOURCE:
             case Constants.FLIGHT:
                 decision = true;
@@ -135,6 +140,16 @@ public class RDFFilter {
         return pristupnost;
     }
     
+    public static void deleteElementByName(Element element, String tag) throws TagNotFoundException {
+        NodeList nodeList = element.getElementsByTagName(tag);
+        // There must be one tag exactly in the node
+        if(nodeList.getLength() != 1){
+            throw new TagNotFoundException(tag+" tag not found or found more than "
+                    + "one occurance in node " + element.getTextContent());
+        }
+        nodeList.item(0).getParentNode().removeChild(nodeList.item(0));
+    }
+
     private static Character getTagCharValue(Element element, String tag) throws TagNotFoundException {
         NodeList nodeList = element.getElementsByTagName(tag);
         // There must be one tag exactly in the node
