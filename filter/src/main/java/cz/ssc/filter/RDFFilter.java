@@ -61,13 +61,30 @@ public class RDFFilter {
                     decision = true;
                 }
                 break;
-                // Here I dont filter at all
+                // I am considering access level (pristupnost) and state (stav)
             case Constants.PAS:
                  nodeAccessLvl = getNodeAccessLevel(element);
-                 if (userAccessLvl < nodeAccessLvl) {
-                     deleteElementByName(element, "lokalizace");
-                     deleteElementByName(element, "katastr");
+                 nodeState = getNodeState(keyword, element, null);
+                 if(userAccessLvl >= 'C') {
+                         decision = true;
+                         break;
+                     }
+                 
+                 if (hasReqState(nodeState, keyword)) {
+                        if (userAccessLvl < nodeAccessLvl) { //only delete some info
+                            deleteElementByName(element, "lokalizace");
+                            deleteElementByName(element, "katastr");
+                            deleteElementByName(element, "geom_x");
+                            deleteElementByName(element, "geom_y");
+                            deleteElementByName(element, "geom_gml");
+                        }
+                        decision = true;
+                        break;
+                 } else {
+                    decision = false;
+                    break;
                  }
+                // Here I dont filter at all                 
             case Constants.EXT_SOURCE:
             case Constants.FLIGHT:
                 decision = true;
