@@ -62,6 +62,7 @@ public class BulkFilter extends XMLFilterImpl {
         names.add("vytvoreno");
         names.add("datum_vymezeni");
         names.add("datum_potvrzeni");
+        names.add("datum_nalezu");
         return names;
     }
 
