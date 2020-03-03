@@ -74,8 +74,8 @@ public class RDFFilter {
                         if (userAccessLvl < nodeAccessLvl) { //only delete some info
                             deleteElementByName(element, "lokalizace");
                             deleteElementByName(element, "katastr");
-                            deleteElementByName(element, "geom_x");
-                            deleteElementByName(element, "geom_y");
+                            deleteElementByName(element, "centroid_e");
+                            deleteElementByName(element, "centroid_n");
                             deleteElementByName(element, "geom_gml");
                         }
                         decision = true;
