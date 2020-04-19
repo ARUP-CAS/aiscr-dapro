@@ -1,5 +1,5 @@
 # aiscr-dapro
-OAI-PMH Data Provider pro AMČR
+OAI-PMH Data Provider pro AMČR (http://www.archeologickamapa.cz/)
 
 https://api.aiscr.cz/media/API_UserGuide.pdf
 
