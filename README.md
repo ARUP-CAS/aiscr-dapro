@@ -1,4 +1,5 @@
 # aiscr-dapro
+OAI-PMH Data Provider pro AMČR
 
 https://api.aiscr.cz/media/API_UserGuide.pdf
 
