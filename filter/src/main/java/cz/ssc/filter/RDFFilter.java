@@ -32,7 +32,6 @@ public class RDFFilter {
             case Constants.SITE:
             case Constants.PIAN:
             case Constants.DOC_UNIT:
-            case Constants.PAS:
             case Constants.ADB:
                 nodeAccessLvl = getNodeAccessLevel(element);
                 String parentKeyword;
@@ -62,7 +61,30 @@ public class RDFFilter {
                     decision = true;
                 }
                 break;
-                // Here I dont filter at all
+                // I am considering access level (pristupnost) and state (stav)
+            case Constants.PAS:
+                 nodeAccessLvl = getNodeAccessLevel(element);
+                 nodeState = getNodeState(keyword, element, null);
+                 if(userAccessLvl >= 'C') {
+                         decision = true;
+                         break;
+                     }
+                 
+                 if (hasReqState(nodeState, keyword)) {
+                        if (userAccessLvl < nodeAccessLvl) { //only delete some info
+                            deleteElementByName(element, "lokalizace");
+                            deleteElementByName(element, "katastr");
+                            deleteElementByName(element, "centroid_e");
+                            deleteElementByName(element, "centroid_n");
+                            deleteElementByName(element, "geom_gml");
+                        }
+                        decision = true;
+                        break;
+                 } else {
+                    decision = false;
+                    break;
+                 }
+                // Here I dont filter at all                 
             case Constants.EXT_SOURCE:
             case Constants.FLIGHT:
                 decision = true;
@@ -107,8 +129,7 @@ public class RDFFilter {
                     throw new TagNotFoundException("First characer of indent_cely value is different then P or N");
                 }
             case Constants.DOC_UNIT: // Here I am looking for tag "dok_jednotka" there can be "lokalita_stav" and "akce_stav"
-                return getTagCharValue(element, parent+"_stav");
-            case Constants.ADB: // Here I am looking for tag "dok_jednotka" there can be "lokalita_stav" and "akce_stav"
+            case Constants.ADB:
                 return getTagCharValue(element, parent+"_stav");
             default:
                 return getTagCharValue(element, "stav"); // Else I am looking for tag "stav"
@@ -138,6 +159,16 @@ public class RDFFilter {
         return pristupnost;
     }
     
+    public static void deleteElementByName(Element element, String tag) throws TagNotFoundException {
+        NodeList nodeList = element.getElementsByTagName(tag);
+        // There must be one tag exactly in the node
+        if(nodeList.getLength() != 1){
+            throw new TagNotFoundException(tag+" tag not found or found more than "
+                    + "one occurance in node " + element.getTextContent());
+        }
+        nodeList.item(0).getParentNode().removeChild(nodeList.item(0));
+    }
+
     private static Character getTagCharValue(Element element, String tag) throws TagNotFoundException {
         NodeList nodeList = element.getElementsByTagName(tag);
         // There must be one tag exactly in the node
