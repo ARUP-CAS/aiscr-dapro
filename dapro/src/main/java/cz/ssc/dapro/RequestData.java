@@ -115,7 +115,6 @@ public class RequestData {
         if (identCely == null) {
             return null;
         }
-
         if (identCely.matches("(?:X-)?[CM]-[0-9]{9}")) {
             return Constants.PROJECT;
         } else if (identCely.matches("(?:X-)?[CM]-[0-9]{7,9}[A-Z]")) {
@@ -132,9 +131,7 @@ public class RequestData {
             return Constants.PIAN;
         } else if (identCely.matches("[0-9]+_.+")) { // filepath
             return Constants.FILE;
-        } else if (identCely.matches("[CM]-[0-9]{9}-N[0-9]{5}")) {
-            return Constants.PAS;
-        } else if (identCely.matches("(?:X-)?[CM]-[A-Z]{4}[0-9]{2}-[0-9]{4}")) {
+        } else if (identCely.matches("(?:X-)?ADB-[A-Z]{4}[0-9]{2}-[0-9]{4}")) {
             return Constants.ADB;
         } else {
             return Constants.DOCUMENT;
