@@ -70,6 +70,7 @@
       <xsd:element name="geometry_e" minOccurs="0" maxOccurs="1" type="xsd:float"/>
       <xsd:element name="geometry_n" minOccurs="0" maxOccurs="1" type="xsd:float"/>
       <xsd:element name="child_akce" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      <xsd:element name="child_samostatny_nalez" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 
