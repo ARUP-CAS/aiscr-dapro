@@ -20,7 +20,6 @@
     <module>dapro</module>
     <module>scrub</module>
     <module>rdfcon</module>
-    <module>tomcat-war-deployment</module>
   </modules>
 
   <dependencies>
