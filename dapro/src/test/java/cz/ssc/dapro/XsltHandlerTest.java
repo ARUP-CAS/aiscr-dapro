@@ -547,7 +547,7 @@ public class XsltHandlerTest extends TestCase {
     public void testListSets() throws Exception {
         Document doc = ask("ListSets");
         NodeList nodes = (NodeList)xp.evaluate("//*[local-name()='setSpec']", doc, XPathConstants.NODESET);
-        assertEquals(10, nodes.getLength());
+        assertEquals(11, nodes.getLength());
     }
 
     private Document ask(String verb) throws Exception {

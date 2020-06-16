@@ -4,3 +4,4 @@ dapro/.idea
 filter/target
 rdfcon/target
 /scrub/target/
+/tomcat-war-deployment/target/

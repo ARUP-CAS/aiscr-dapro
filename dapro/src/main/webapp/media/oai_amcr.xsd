@@ -479,4 +479,37 @@
       <xsd:element name="child_dok_jednotka" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
+  
+  <xsd:complexType name="IndividualFindType">
+    <xsd:sequence>
+     <xsd:element name="ident_cely" minOccurs="1" maxOccurs="1" type="xsd:string"/>  
+     <xsd:element name="inv_cislo" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="projekt_id" minOccurs="1" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="okres" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="katastr" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="lokalizace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="centroid_e" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="centroid_n" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="geom_gml" minOccurs="0" maxOccurs="1">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:any namespace="http://www.opengis.net/gml/3.2" processContents="skip"/>
+          </xsd:sequence>
+        </xsd:complexType>
+     </xsd:element>
+     <xsd:element name="hloubka" minOccurs="0" maxOccurs="1" type="xsd:integer"/>
+     <xsd:element name="pristupnost" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="obdobi" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="presna_datace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="typ" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="druh" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="specifikace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="pocet" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="nalezce" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="datum_nalezu" minOccurs="0" maxOccurs="1" type="xsd:date"/>
+     <xsd:element name="stav" minOccurs="0" maxOccurs="1" type="xsd:integer"/>
+     <xsd:element name="predano" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="predano_organizace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
 </xsd:schema>
