@@ -233,6 +233,8 @@ public class RDFCon {
         allowedKW.add(Constants.EXT_SOURCE);
         allowedKW.add(Constants.FILE);
         allowedKW.add(Constants.DOC_UNIT);
+        allowedKW.add(Constants.ADB);
+        allowedKW.add(Constants.PAS);
 
         // Keyword is from a set of words
         boolean keyword_from_set = allowedKW.contains(keyword);
