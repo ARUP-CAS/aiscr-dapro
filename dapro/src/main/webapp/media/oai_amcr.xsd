@@ -23,6 +23,7 @@
         <xsd:element name="ext_zdroj" type="oai_amcr:ExternalSourceType"/>
         <xsd:element name="pian" type="oai_amcr:PianType"/>
         <xsd:element name="adb" type="oai_amcr:AdbType"/>
+        <xsd:element name="samostatny_nalez" type="oai_amcr:IndividualFindType"/>
       </xsd:choice>
     </xsd:complexType>
   </xsd:element>
@@ -510,6 +511,11 @@
      <xsd:element name="stav" minOccurs="0" maxOccurs="1" type="xsd:integer"/>
      <xsd:element name="predano" minOccurs="0" maxOccurs="1" type="xsd:string"/>
      <xsd:element name="predano_organizace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="odpovedny_pracovnik_vlozeni" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="datum_vlozeni" minOccurs="0" maxOccurs="1" type="xsd:date"/>
+     <xsd:element name="odpovedny_pracovnik_vlozeni" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="datum_vlozeni" minOccurs="0" maxOccurs="1" type="xsd:date"/>
+     <xsd:element name="odpovedny_pracovnik_archivace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 </xsd:schema>
