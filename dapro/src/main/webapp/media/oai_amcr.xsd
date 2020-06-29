@@ -515,6 +515,7 @@
      <xsd:element name="datum_vlozeni" minOccurs="0" maxOccurs="1" type="xsd:date"/>
      <xsd:element name="odpovedny_pracovnik_archivace" minOccurs="0" maxOccurs="1" type="xsd:string"/>
      <xsd:element name="datum_archivace" minOccurs="0" maxOccurs="1" type="xsd:date"/>
+     <xsd:element name="child_soubor" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
     </xsd:sequence>
   </xsd:complexType>
 </xsd:schema>
