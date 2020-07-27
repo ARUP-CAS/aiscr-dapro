@@ -32,13 +32,12 @@
       <metadata>
         <oai_amcr:amcr
             xmlns:oai_amcr="https://api.aiscr.cz/schema/oai_amcr"
-            xmlns=""
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <xsl:attribute name="schemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">
             <xsl:value-of select="concat('https://api.aiscr.cz/schema/oai_amcr', ' ', $schemaHead, 'oai_amcr.xsd')" />
           </xsl:attribute>
           <!-- some processors just copy the literal xmlns declaration above - but not all... -->
-          <xsl:copy-of select="document('empty.xml')/*/namespace::*" />
+          <!-- xsl:copy-of select="document('empty.xml')/*/namespace::*" /-->
           <xsl:copy-of select="."/>
         </oai_amcr:amcr>
       </metadata>
