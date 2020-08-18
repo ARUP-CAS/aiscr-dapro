@@ -15,7 +15,7 @@ export_date = datetime.strptime(time.ctime(os.path.getctime(TIMEFILE)), "%a %b %
 
 date = export_date
 
-surfix = ['projekt', 'akce', 'lokalita', 'dokument', 'dok_jednotka', 'soubor', 'let', 'pian', 'ext_zdroj']
+surfix = ['projekt', 'akce', 'lokalita', 'dokument', 'dok_jednotka', 'soubor', 'let', 'pian', 'ext_zdroj', 'samostatny_nalez', 'adb']
 
 xml_prefix = 'export_'
 rdf_prefix = 'rdf_'
@@ -32,7 +32,7 @@ maxDate = oldestTime = oldestTime - timedelta(days=1)
 setFound = 0
 
 while date > maxDate:
-
+    #print(date)
     findXML = False
     findRDF = False
 
@@ -44,10 +44,11 @@ while date > maxDate:
     listFound = 0
     for s in surfix:
         for file in myDailyList:
-            if s in file:
-                listFound += 1
+                if s in file:
+                        listFound += 1
 
     if listFound == countXML:
+         #print("Set found xml")
          findXML = True
     else:
         date = date - timedelta(days=1)
@@ -64,12 +65,15 @@ while date > maxDate:
                 break
 
     if listFound == countRDF:
+         #print("Set found RDF")
          findRDF = True
 
     if findXML == True and findRDF == True:
         setFound +=1
         if (setFound == 1):
+            #print("Set RDF and XML completed")
             days_min = (date + timedelta(days=1)).strftime("%Y-%m-%d")
+            #print(days_min)
 
     if setFound == constDays:
         break
@@ -79,8 +83,13 @@ while date > maxDate:
 if(setFound == constDays):
     days_max=(datetime.now()-date).days
     delete_string = 'find ' + EXPDATA + '/* -type f -mtime +' + str(days_max) + ' | xargs rm -f >>' + LOGFILE + ' 2>&1'
+    print(delete_string)
     os.system(delete_string)
 
 #delete not complete set of exports
-delete_string = 'find ' + EXPDATA +' -type f -newermt \"' + days_min + '\" -delete >>' + LOGFILE + ' 2>&1'
-os.system(delete_string)
+try:
+    delete_string = 'find ' + EXPDATA +' -type f -newermt \"' + days_min + '\" -delete >>' + LOGFILE + ' 2>&1'
+    print(delete_string)
+    os.system(delete_string)
+except:
+    print("Nothing to delete")
