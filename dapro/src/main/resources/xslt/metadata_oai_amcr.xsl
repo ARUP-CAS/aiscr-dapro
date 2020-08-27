@@ -31,7 +31,7 @@
 
       <metadata>
         <oai_amcr:amcr
-            xmlns:oai_amcr="https://api.aiscr.cz/schema/oai_amcr/"
+            xmlns:oai_amcr="https://api.aiscr.cz/schema/oai_amcr"
             xmlns=""
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <xsl:attribute name="schemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">
