@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns:oai_amcr="https://api.aiscr.cz/schema/oai_amcr"
+    xmlns:oai_amcr="https://api.aiscr.cz/schema/oai_amcr/"
     targetNamespace="https://api.aiscr.cz/schema/oai_amcr"
     elementFormDefault="unqualified">
 

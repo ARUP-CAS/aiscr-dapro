@@ -28,7 +28,7 @@
 
       <metadata>
         <oai_rdf:crm2rdf
-            xmlns:oai_rdf="https://api.aiscr.cz/schema/oai_rdf"
+            xmlns:oai_rdf="https://api.aiscr.cz/schema/oai_rdf/"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <xsl:attribute name="schemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">
             <xsl:value-of select="concat('https://api.aiscr.cz/schema/oai_rdf', ' ', $schemaHead, 'oai_rdf.xsd')" />
