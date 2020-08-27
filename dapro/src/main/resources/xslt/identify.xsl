@@ -14,7 +14,7 @@
     <baseURL>
       <xsl:value-of select="$requestStr" />
     </baseURL>
-    <protocolVersion>3.0</protocolVersion>
+    <protocolVersion>2.0</protocolVersion>
     <adminEmail>info@amapa.cz</adminEmail>
     <earliestDatestamp>1990-01-01</earliestDatestamp>
     <deletedRecord>no</deletedRecord>
