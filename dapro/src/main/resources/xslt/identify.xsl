@@ -32,7 +32,7 @@
         <xsl:element name="dc:creator">Archeologický ústav AV ČR, Praha, v.v.i.</xsl:element>
         <xsl:element name="dc:creator">Archeologický ústav AV ČR, Brno, v.v.i.</xsl:element>
         <xsl:element name="dc:identifier">https://api.aiscr.cz/</xsl:element>
-        <xsl:element name="dc:identifier">version 1.1.0</xsl:element>
+        <xsl:element name="dc:identifier">version 1.2.0</xsl:element>
         <xsl:element name="dc:source">http://www.archeologickamapa.cz/</xsl:element>
         <xsl:element name="dc:relation">http://www.aiscr.cz/</xsl:element>
         <xsl:element name="dc:language">cs</xsl:element>
