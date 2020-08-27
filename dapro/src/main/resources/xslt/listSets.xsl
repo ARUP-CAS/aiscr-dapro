@@ -89,7 +89,7 @@
     </set>
     <set>
       <setSpec>adb</setSpec>
-      <setName>Archeologický dokumentační bod / Archaeological Documentation Points</setName>
+      <setName>Archeologické dokumentační body / Archaeological Documentation Points</setName>
       <setDescription>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <xsl:element name="dc:description">Archeologické dokumentační body (ADB) jsou rozšiřujícím popisem dokumentačních jednotek typu "sonda", které zachycují podrobnější informace o okolnostech odkryvu. Jejich hlavním specifikem je možnost k nim přiřadit informace o zachycených stratigrafických horizontech a jejich přesné polohopisné a výškopisné určení pomocí tzv. výškových bodů. Tato data umožňují rekonstruovat zaniklé archeologické terény a predikovat míru jejich dochování v okolí. Systém evidence ADB vychází z principů nastavených L. Hrdličkou, který sestavil a dlouhodobě udržoval Mapu ADB pro Pražskou památkovou rezervaci. Na tuto evidenci data v AMČR přímo navazují.</xsl:element>
