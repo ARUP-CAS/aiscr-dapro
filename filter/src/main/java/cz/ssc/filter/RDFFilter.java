@@ -52,9 +52,9 @@ public class RDFFilter {
                   }
                 }
                 break;
-            case Constants.DOCUMENT:
             case Constants.FILE:
                 parent = findFileParent(element);
+            case Constants.DOCUMENT:
             case Constants.PROJECT:
                 // Here I consider only state (stav)
                 nodeState = getNodeState(keyword, element, null);
