@@ -51,7 +51,6 @@ public class RDFFilter {
                 }
                 break;
             case Constants.DOCUMENT:
-            case Constants.FILE:
             case Constants.PROJECT:
                 // Here I consider only state (stav)
                 nodeState = getNodeState(keyword, element, null);
@@ -60,6 +59,16 @@ public class RDFFilter {
                     decision = true;
                 }
                 break;
+            case Constants.FILE:
+                // Each file can have multiple parents (Project, Document and Individual finds)
+                // They Archived states are different i.e. document file is archived in state = 3
+                // whereas file of the individual find is in archived state = 4
+                String fileParent = findFileParent(element);
+                nodeState = getNodeState(keyword, element, null);
+                if((userAccessLvl >= 'C') ||
+                       hasReqState(nodeState, keyword)){
+                    decision = true;
+                }
                 // Here I dont filter at all
             case Constants.EXT_SOURCE:
             case Constants.FLIGHT:
@@ -121,6 +130,23 @@ public class RDFFilter {
             throw new TagNotFoundException("tag lokalita_stav nor akce_stav was not found");
         }
         return parentFound;
+    }
+    
+    public static String findFileParent(Element element) throws TagNotFoundException {
+        NodeList documentTag = element.getElementsByTagName("dokument");
+        NodeList projectTag = element.getElementsByTagName("projekt");
+        NodeList individualFindTag = element.getElementsByTagName("samostatny_nalez");
+        String parent = "";
+        if (documentTag.getLength() != 0) {
+            parent = "dokument";
+        } else if (projectTag.getLength() != 0) {
+            parent = "projekt";
+        } else if (individualFindTag.getLength() != 0) {
+            parent = "samostatny_nalez";
+        } else{
+            throw new TagNotFoundException("tag dokument nor projekt nor samostatny_nalez was not found");
+        }
+        return parent;
     }
     
     public static Character getNodeAccessLevel(Element element) throws TagNotFoundException {

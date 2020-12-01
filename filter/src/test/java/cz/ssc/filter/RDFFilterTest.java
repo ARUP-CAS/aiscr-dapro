@@ -133,6 +133,24 @@ public class RDFFilterTest {
     }
     
     @Test 
+    public void testCorrectFilteringFile() throws Exception {
+        
+        Document doc = getDocument("export_soubor5.xml");
+        doc.getDocumentElement().normalize();
+        NodeList nList = doc.getElementsByTagName("soubor");
+        
+        assertEquals(nList.getLength(), 5);
+        
+        // state 3, req lvl C (samostatny_nalez) Stav 3 souboru samostatnych nalezu nemuze videt anonym
+        assertFalse(RDFFilter.filter(nList.item(1), AccessLevel.ANONYM));
+        // state 4, req lvl A (samostatny_nalez)
+        assertTrue(RDFFilter.filter(nList.item(4), AccessLevel.ANONYM));
+        // state 3, req lvl A (dokument) Stav 3 souboru dokumentu anonym videt muze
+        assertTrue(RDFFilter.filter(nList.item(2), AccessLevel.ANONYM));
+        
+    }
+    
+    @Test 
     public void testCorrectFilteringLet() throws Exception {
         
         Document doc = getDocument("export_let4.xml");

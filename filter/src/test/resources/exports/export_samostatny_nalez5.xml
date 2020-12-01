@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<amcr>
+ <samostatny_nalez>
+  <ident_cely>C-201900018-N00001</ident_cely>
+  <inv_cislo>-1</inv_cislo>
+  <projekt_id>C-201900018</projekt_id>
+  <okres>LIBEREC</okres>
+  <katastr>ANDĚLKA</katastr>
+  <lokalizace>na políčku v jetelíčku</lokalizace>
+  <centroid_e>15.0715461833153</centroid_e>
+  <centroid_n>50.782483335393</centroid_n>
+  <geom_gml xmlns:gml="http://www.opengis.net/gml/3.2"><gml:Point srsName="EPSG:5514"><gml:coordinates>-686809.842701997142285,-972479.725760006345809</gml:coordinates></gml:Point></geom_gml>
+  <hloubka>2</hloubka>
+  <nalezove_okolnosti>povrch</nalezove_okolnosti>
+  <pristupnost>C</pristupnost>
+  <obdobi>pa.kru</obdobi>
+  <typ>P</typ>
+  <druh>deska</druh>
+  <specifikace>kámen drahý</specifikace>
+  <pocet>1</pocet>
+  <nalezce>Jindráková, Pavla</nalezce>
+  <datum_nalezu>2019-11-04</datum_nalezu>
+  <stav>4</stav>
+  <predano>t</predano>
+  <predano_organizace>Space Systems Czech</predano_organizace>
+  <odpovedny_pracovnik_vlozeni>archivar, pavla</odpovedny_pracovnik_vlozeni>
+  <datum_vlozeni>2019-11-17</datum_vlozeni>
+  <odpovedny_pracovnik_archivace>archivar, pavla</odpovedny_pracovnik_archivace>
+  <datum_archivace>2019-11-17</datum_archivace>
+ </samostatny_nalez>
+ <samostatny_nalez>
+  <ident_cely>C-201900018-N00019</ident_cely>
+  <inv_cislo>-1</inv_cislo>
+  <projekt_id>C-201900018</projekt_id>
+  <katastr>anonym@anonym.cz</katastr>
+  <lokalizace>Nekde uvnitr</lokalizace>
+  <nalezove_okolnosti>lesní hrabanka</nalezove_okolnosti>
+  <pristupnost>A</pristupnost>
+  <obdobi>nedat</obdobi>
+  <typ>P</typ>
+  <druh>kamenná industrie nesp.</druh>
+  <specifikace>grafit</specifikace>
+  <nalezce>Jindráková, Pavla</nalezce>
+  <datum_nalezu>2020-03-18</datum_nalezu>
+  <stav>1</stav>
+  <predano>f</predano>
+  <predano_organizace>Space Systems Czech</predano_organizace>
+  <odpovedny_pracovnik_vlozeni>Skvarla, Juraj</odpovedny_pracovnik_vlozeni>
+  <datum_vlozeni>2020-03-25</datum_vlozeni>
+ </samostatny_nalez>
+ <samostatny_nalez>
+  <ident_cely>C-201900018-N00020</ident_cely>
+  <inv_cislo>-1</inv_cislo>
+  <projekt_id>C-201900018</projekt_id>
+  <okres>PRAHA-ZÁPAD</okres>
+  <katastr>DOBROVÍZ</katastr>
+  <lokalizace>Pri potoku</lokalizace>
+  <centroid_e>14.23075</centroid_e>
+  <centroid_n>50.106552</centroid_n>
+  <geom_gml xmlns:gml="http://www.opengis.net/gml/3.2"><gml:Point srsName="EPSG:5514"><gml:coordinates>-756017.058950153994374,-1039034.931577006354928</gml:coordinates></gml:Point></geom_gml>
+  <hloubka>10</hloubka>
+  <nalezove_okolnosti>pastvina/louka</nalezove_okolnosti>
+  <pristupnost>A</pristupnost>
+  <typ>P</typ>
+  <druh>mince</druh>
+  <specifikace>zlato</specifikace>
+  <pocet>10</pocet>
+  <nalezce>Skvarla, Juraj</nalezce>
+  <datum_nalezu>2020-07-30</datum_nalezu>
+  <stav>1</stav>
+  <predano>f</predano>
+  <predano_organizace>Space Systems Czech</predano_organizace>
+  <odpovedny_pracovnik_vlozeni>Skvarla, Juraj</odpovedny_pracovnik_vlozeni>
+  <datum_vlozeni>2020-07-30</datum_vlozeni>
+  <child_soubor>1600942208935_C-201900018-N00020F1.jpg</child_soubor>
+ </samostatny_nalez>
+ <samostatny_nalez>
+  <ident_cely>C-201900019-N00002</ident_cely>
+  <inv_cislo>abc</inv_cislo>
+  <projekt_id>C-201900019</projekt_id>
+  <okres>PRAHA-VÝCHOD</okres>
+  <katastr>POLERADY U PRAHY</katastr>
+  <lokalizace>Někde jinde</lokalizace>
+  <centroid_e>14.6</centroid_e>
+  <centroid_n>50.2</centroid_n>
+  <geom_gml xmlns:gml="http://www.opengis.net/gml/3.2"><gml:Point srsName="EPSG:5514"><gml:coordinates>-728459.055449069244787,-1032337.959160612081178</gml:coordinates></gml:Point></geom_gml>
+  <hloubka>3</hloubka>
+  <nalezove_okolnosti>pastvina/louka</nalezove_okolnosti>
+  <pristupnost>D</pristupnost>
+  <obdobi>nedat</obdobi>
+  <typ>P</typ>
+  <druh>zlomek keramiky nesp.</druh>
+  <specifikace>jantar</specifikace>
+  <pocet>1</pocet>
+  <nalezce>Jindráková, Pavla</nalezce>
+  <datum_nalezu>2019-11-19</datum_nalezu>
+  <stav>3</stav>
+  <predano>t</predano>
+  <predano_organizace>ZČU Plzeň - Filozofická fakulta</predano_organizace>
+  <odpovedny_pracovnik_vlozeni>Skvarla, Juraj</odpovedny_pracovnik_vlozeni>
+  <datum_vlozeni>2019-11-19</datum_vlozeni>
+  <child_soubor>1596796311756_C-201900019-N00002F1.jpg</child_soubor>
+  <child_soubor>1596797173424_C-201900019-N00002F2.png</child_soubor>
+ </samostatny_nalez>
+ <samostatny_nalez>
+  <ident_cely>M-202000003-N00002</ident_cely>
+  <inv_cislo>-1</inv_cislo>
+  <projekt_id>M-202000003</projekt_id>
+  <okres>PŘEROV</okres>
+  <katastr>STŘÍTEŽ NAD LUDINOU</katastr>
+  <lokalizace>kde tam v poli</lokalizace>
+  <centroid_e>17.737313</centroid_e>
+  <centroid_n>49.592908</centroid_n>
+  <geom_gml xmlns:gml="http://www.opengis.net/gml/3.2"><gml:Point srsName="EPSG:5514"><gml:coordinates>-512174.700965525233187,-1124941.089506763964891</gml:coordinates></gml:Point></geom_gml>
+  <hloubka>4</hloubka>
+  <nalezove_okolnosti>ornice</nalezove_okolnosti>
+  <pristupnost>C</pristupnost>
+  <obdobi>pa.ml</obdobi>
+  <typ>P</typ>
+  <druh>vejce</druh>
+  <specifikace>olovo</specifikace>
+  <pocet>4</pocet>
+  <poznamka>olověné vejce</poznamka>
+  <nalezce>Pajdla, Petr</nalezce>
+  <datum_nalezu>2020-09-30</datum_nalezu>
+  <stav>2</stav>
+  <predano>f</predano>
+  <predano_organizace>Archeologický ústav Brno</predano_organizace>
+  <odpovedny_pracovnik_vlozeni>Pípač, Imaginární</odpovedny_pracovnik_vlozeni>
+  <datum_vlozeni>2020-09-30</datum_vlozeni>
+  <child_soubor>1601497924186_M-202000003-N00002F1.jpg</child_soubor>
+ </samostatny_nalez>
+</amcr>
