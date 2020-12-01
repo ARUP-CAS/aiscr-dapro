@@ -22,14 +22,14 @@
       <schema>
         <xsl:value-of select="concat($schemaHead, 'oai_rdf.xsd')" />
       </schema>
-      <metadataNamespace>https://api.aiscr.cz/schema/oai_rdf</metadataNamespace>
+      <metadataNamespace>https://api.aiscr.cz/schema/oai_rdf/</metadataNamespace>
     </metadataFormat>
     <metadataFormat>
       <metadataPrefix>oai_amcr</metadataPrefix>
       <schema>
         <xsl:value-of select="concat($schemaHead, 'oai_amcr.xsd')" />
       </schema>
-      <metadataNamespace>https://api.aiscr.cz/schema/oai_amcr</metadataNamespace>
+      <metadataNamespace>https://api.aiscr.cz/schema/oai_amcr/</metadataNamespace>
     </metadataFormat>
   </xsl:template>
 

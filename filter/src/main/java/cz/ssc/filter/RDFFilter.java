@@ -18,6 +18,7 @@ public class RDFFilter {
         Boolean decision = false;
         Element element;
         String keyword;
+        String parent = null;
         char nodeAccessLvl;
         char nodeState;
         if ((node != null) && (node.getNodeType() == Node.ELEMENT_NODE)) {
@@ -32,10 +33,11 @@ public class RDFFilter {
             case Constants.SITE:
             case Constants.PIAN:
             case Constants.DOC_UNIT:
+            case Constants.ADB:
                 nodeAccessLvl = getNodeAccessLevel(element);
                 String parentKeyword;
                 // I am filtering dok_jenotka keywords based on required state of its parent keyword
-                if(Constants.DOC_UNIT.equals(keyword)){
+                if(Constants.DOC_UNIT.equals(keyword) || Constants.ADB.equals(keyword)){
                     parentKeyword = findDocUnitParent(element);
                     nodeState = getNodeState(keyword, element, parentKeyword);
                     keyword = parentKeyword;
@@ -45,31 +47,45 @@ public class RDFFilter {
                 // I am considering access level (pristupnost) and state (stav)
                 if (userAccessLvl >= nodeAccessLvl) {
                   if ((userAccessLvl >= 'C') ||
-                         hasReqState(nodeState, keyword)){
+                         hasReqState(nodeState, keyword, parent)){
                       decision = true;
                   }
                 }
                 break;
             case Constants.DOCUMENT:
+            case Constants.FILE:
+                parent = findFileParent(element);
             case Constants.PROJECT:
                 // Here I consider only state (stav)
                 nodeState = getNodeState(keyword, element, null);
                 if((userAccessLvl >= 'C') ||
-                       hasReqState(nodeState, keyword)){
+                       hasReqState(nodeState, keyword, parent)){
                     decision = true;
                 }
                 break;
-            case Constants.FILE:
-                // Each file can have multiple parents (Project, Document and Individual finds)
-                // They Archived states are different i.e. document file is archived in state = 3
-                // whereas file of the individual find is in archived state = 4
-                String fileParent = findFileParent(element);
-                nodeState = getNodeState(keyword, element, null);
-                if((userAccessLvl >= 'C') ||
-                       hasReqState(nodeState, keyword)){
-                    decision = true;
-                }
-                // Here I dont filter at all
+            case Constants.PAS:
+                 nodeAccessLvl = getNodeAccessLevel(element);
+                 nodeState = getNodeState(keyword, element, null);
+                 if(userAccessLvl >= 'C') {
+                         decision = true;
+                         break;
+                     }
+                 
+                 if (hasReqState(nodeState, keyword, parent)) {
+                        if (userAccessLvl < nodeAccessLvl) { //only delete some info
+                            deleteElementByName(element, "lokalizace");
+                            deleteElementByName(element, "katastr");
+                            deleteElementByName(element, "centroid_e");
+                            deleteElementByName(element, "centroid_n");
+                            deleteElementByName(element, "geom_gml");
+                        }
+                        decision = true;
+                        break;
+                 } else {
+                    decision = false;
+                    break;
+                 }
+            // Here I dont filter at all                 
             case Constants.EXT_SOURCE:
             case Constants.FLIGHT:
                 decision = true;
@@ -82,7 +98,7 @@ public class RDFFilter {
         return decision;
     }
         
-    public static Boolean hasReqState(Character nodeState, String keyword) throws TagNotFoundException{
+    public static Boolean hasReqState(Character nodeState, String keyword, String parent) throws TagNotFoundException{
         
         switch(keyword){
             case Constants.EVENT:
@@ -91,11 +107,20 @@ public class RDFFilter {
             case Constants.SITE:
             case Constants.DOCUMENT:
             case Constants.FILE:
-                return '3'==nodeState;
+                 // Each file can have multiple parents (Project, Document and Individual finds)
+                // They Archived states are different i.e. document file is archived in state = 3
+                // whereas file of the individual find is in archived state = 4
+                if ("samostatny_nalez".equals(parent)){
+                    return '4'==nodeState;
+                } else {
+                    return '3'==nodeState;
+                }
             case Constants.PIAN:
                 return 'P'==nodeState;
             case Constants.PROJECT:
                 return '6'==nodeState;
+            case Constants.PAS:
+                return '4'==nodeState;
             default:
                 throw new TagNotFoundException("Required states for keyword " + keyword + " not defined");
         }
@@ -112,6 +137,7 @@ public class RDFFilter {
                     throw new TagNotFoundException("First characer of indent_cely value is different then P or N");
                 }
             case Constants.DOC_UNIT: // Here I am looking for tag "dok_jednotka" there can be "lokalita_stav" and "akce_stav"
+            case Constants.ADB:
                 return getTagCharValue(element, parent+"_stav");
             default:
                 return getTagCharValue(element, "stav"); // Else I am looking for tag "stav"
@@ -158,6 +184,16 @@ public class RDFFilter {
         return pristupnost;
     }
     
+    public static void deleteElementByName(Element element, String tag) throws TagNotFoundException {
+        NodeList nodeList = element.getElementsByTagName(tag);
+        // There must be one tag exactly in the node
+        if(nodeList.getLength() != 1){
+            throw new TagNotFoundException(tag+" tag not found or found more than "
+                    + "one occurance in node " + element.getTextContent());
+        }
+        nodeList.item(0).getParentNode().removeChild(nodeList.item(0));
+    }
+
     private static Character getTagCharValue(Element element, String tag) throws TagNotFoundException {
         NodeList nodeList = element.getElementsByTagName(tag);
         // There must be one tag exactly in the node

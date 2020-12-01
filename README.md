@@ -1,4 +1,10 @@
-# amcr-dapro
+# aiscr-dapro
+OAI-PMH Data Provider pro AMČR (http://www.archeologickamapa.cz/)
 
-OAI-PMH Data Provider
+https://api.aiscr.cz/media/API_UserGuide.pdf
 
+Související komponenty:
+
+https://github.com/ARUP-CAS/aiscr-api-home
+
+https://github.com/ARUP-CAS/aiscr-pass

@@ -19,6 +19,8 @@ public final class Constants {
     public static final String PIAN = "pian";
     public static final String EXT_SOURCE = "ext_zdroj";
     public static final String FLIGHT = "let";
+    public static final String PAS = "samostatny_nalez";
+    public static final String ADB = "adb";
     public static final List<String> KEYWORDS = new ArrayList<String>();
     
     static {
@@ -31,6 +33,8 @@ public final class Constants {
         KEYWORDS.add(PIAN);
         KEYWORDS.add(EXT_SOURCE);
         KEYWORDS.add(FLIGHT);
+        KEYWORDS.add(PAS);
+        KEYWORDS.add(ADB);
     }
     
 }
