@@ -4,7 +4,7 @@
   <groupId>cz.ssc</groupId>
   <artifactId>scrub</artifactId>
   <name>Scrubber</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
   <build>
     <plugins>
       <plugin>
@@ -32,7 +32,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13.1</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
