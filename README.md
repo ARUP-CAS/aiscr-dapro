@@ -1,3 +1,5 @@
+The app was substitued by https://github.com/ARUP-CAS/aiscr-digiarchiv-2
+
 # aiscr-dapro
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/ARUP-CAS/aiscr-dapro/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/ARUP-CAS/aiscr-dapro)
